@@ -1,11 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+
+import './App.css';
+import './css/navbar.css';
+import './css/navbarMedia.css';
+import './css/footer.css';
+import './css/home.css';
+import './css/artworkk.css';
+import './css/artworkkMedia.css';
+import './css/codework.css';
+
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/navbar/Footer';
+import Home from './components/home/Home';
+import Artwork from './components/home/Artwork';
+import Codework from './components/home/Codework';
+
+import { Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+<Navbar/>
+      
+      <div>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/artwork" component={Artwork}/>
+        <Route exact path="/codework" component={Codework}/>
+      </div>
+
+      <footer className="footerholder">
+              <Footer/> 
+              </footer>
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +48,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
