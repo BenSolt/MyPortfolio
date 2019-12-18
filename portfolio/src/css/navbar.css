@@ -1,0 +1,103 @@
+.Navbarholder {
+    background: black;
+    padding: 10px 0 10px 0;
+    /* border: 2px solid red; */
+}
+
+.flexnav{
+    display: flex;
+    /* background: black;  */
+    justify-content: space-evenly;
+    /* border: 2px solid green; */
+}
+  
+.logo{
+    /* display: none; */
+    width: 256px;
+    height: auto;
+    /* border: 2px solid lightblue; */
+}
+
+nav{
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.navlink{
+    color: white;
+    padding: 15px;
+    margin: 10px; 
+    border-radius: 2px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    background:  rgb(95, 95, 95);   
+}
+
+.navlink:hover{
+    color: white; 
+    background:  red;
+}
+  
+.Navbarholderhalo {
+    padding: 7px;
+    background: grey;  
+}
+
+
+
+.navlinkHalo{
+    color: white;
+    /* border: 2px solid black; */
+    padding: 10px 12px 10px 12px;
+    margin: 0 15px 0px 15px; 
+    border-radius: 5px;
+    font-size: .6rem; 
+    text-decoration: none;
+    font-weight:bold;
+    background: rgb(0, 78, 180);
+}
+
+.navlinkHalo:hover{
+    /* color: white; */
+    background: rgb(0, 129, 250);  
+}
+
+
+/* ////////////////////////////////////////////////////////////////////// */
+/*////////////////////////// TOGGLE SWITCH for darkmode /////////////////*/
+/* ///////////////////////////////////////////////////////////////////// */
+
+.darkModeHolder {
+    align-items: center;
+    display: flex; 
+    /* border: 2px solid orange;  */
+  }
+
+.dark-mode__toggle {
+    background: papayawhip;
+    border-radius: 50px;
+    border: 1px solid black;
+    height: 20px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .toggle {
+    background: #f68819;
+    border-radius: 50px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    transition: 0.2s;
+    width: 22px;
+  }
+  
+  .toggled {
+    left: 18px;
+  }
+
+  .navbar2b {
+    background-color: #1F2022;
+    border: none;
+  }

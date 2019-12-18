@@ -1,0 +1,18 @@
+.projectcontainer{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.project{
+    margin: 1%;
+    padding: 12px;
+    border: 2px solid black;
+    width: 256px;
+    height: 256px; 
+    background: black; 
+    border-radius: 5px;
+}
+
+.textcolor{
+   color: white; 
+}
