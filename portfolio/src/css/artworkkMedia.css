@@ -1,0 +1,56 @@
+@media only screen and (max-width: 800px) {
+
+    .myImgsModal{
+        height:auto;
+        width: 512px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .myImgsModal{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .modal{
+        display: none;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; 
+        padding: 10px;
+        border: 1px solid #888;
+        width: 60%; 
+      }  
+}
+
+
+@media only screen and (max-width: 800px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; 
+        padding: 20px;
+        border: 1px solid #888;
+        width: 65%; 
+      }   
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .modal-content{
+        display: none;
+        background-color: none;
+        background-color: none;
+    }
+}
