@@ -25,6 +25,8 @@ export const useDarkMode = () => {
             for (var i = 0; i < text.length; i++) {
                 text [i].style.color = "white"};    
         }
+
+
     })
 
     return [darkMode, setDarkMode];

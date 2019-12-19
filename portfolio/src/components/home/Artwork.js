@@ -85,7 +85,7 @@ export default function Artwork() {
     return(
     <div className='mainbox'>
      <h1>ARTWORK</h1>
-
+     
         <div id="myModal" className="modal">
             <div class="modal-content">
                 <span onClick={ClickClose} className="close">&times;</span>

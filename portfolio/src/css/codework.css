@@ -1,3 +1,17 @@
+.btn2{
+    color: white;
+    padding: 12px 12px 12px 12px;
+    margin: 10px; 
+    border-radius: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background:  rgb(70, 70, 70);
+}
+
+.btn2:hover{
+    background:  red;
+}
+
 .projectcontainer{
     display: flex;
     flex-wrap:wrap;
@@ -7,8 +21,8 @@
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
-    width: 256px;
-    height: 256px; 
+    width: 265px;
+    height: auto; 
     background: black; 
     border-radius: 5px;
 }

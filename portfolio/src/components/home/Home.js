@@ -12,6 +12,11 @@ export default function Home() {
   function openGitHub() {
     window.open("https://github.com/BenSolt/");
   }
+
+  function openResume() {
+    console.log('resume')
+    // window.open("Ben Solt -Resume 2019.pdf");
+  }
   
     return(
       <div className='mainbox'>
@@ -23,13 +28,17 @@ export default function Home() {
         <div className="section1">
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
-              <h3> Currently, I am attending school at Lambda, online, for Web Design. I love
+              <h2> Currently, I am attending school at Lambda, online, for Web Design. I love
                 it and cant wait to use my experiences in the working world.
                 <br/>
                 <br/>
-                In addition to attending Lambda, I enjoy hanging out with family/friends, playing sports,
+                Additionally, I have a Bachelors in Media Arts and Animation, several years
+                of experience in retail - working on a team and interacting with customers.
+                <br/>
+                <br/>
+                I also enjoy hanging out with family/friends, playing sports,
                 and working with the Unreal Engine. 
-              </h3>
+              </h2>
             </div>
         </div>
 
@@ -39,7 +48,8 @@ export default function Home() {
               <h2 className="margintext2">Email: Bensolt@gmail.com</h2>
               <h2 className="margintext2">Cell#: 215-360-5410</h2>
               <button class="btn" onClick={openGitHub}>GitHub</button> 
-              <button class="btn" onClick={openLinkedIn}>LinkedIn2</button>
+              <button class="btn" onClick={openLinkedIn}>LinkedIn</button>
+              <button class="btn" onClick={openResume}>Resume</button>
           </div>
           
           <div className="skillbox">
