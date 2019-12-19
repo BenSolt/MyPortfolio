@@ -12,9 +12,13 @@ export default function Artwork() {
         window.open("https://my-app-2c4n54ugl.now.sh/");
       }
     /////////////////////////////////////////////////////////  
-
+    function Github() {
+        console.log('Github link')
+        //window.open("https://github.com/BenSolt/React-Redux-App2");
+      }
 
     function Deploy() {
+        console.log('Deploy link')
         // window.open("https://my-app-2c4n54ugl.now.sh/");
       }
 
@@ -47,7 +51,7 @@ export default function Artwork() {
                             <br/>
                             <li>bullet points</li>
                         </p>
-                    <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
+                    <button class="btn2" onClick={Github}>Github code</button>
                     <button class="btn2" onClick={Deploy}>Deployed Site</button>
                 </div>
 
@@ -59,7 +63,7 @@ export default function Artwork() {
                             <li>bullet points</li>
                            
                         </p>
-                    <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
+                    <button class="btn2" onClick={Github}>Github code</button>
                     <button class="btn2" onClick={Deploy}>Deployed Site</button>
                 </div>
 

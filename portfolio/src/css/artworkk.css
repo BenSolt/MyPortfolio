@@ -16,6 +16,7 @@
 /* //////////////////////// */
 
 .myImgs:hover{
+    cursor: pointer;
     border: 2px solid red;
     }
 
@@ -24,6 +25,23 @@
     width: 612px;
 }
 
+.closeholder{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 35px;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    padding: 5px; 
+    background: rgb(134, 134, 134);  
+}
+
+
+
+.closeholder:hover{
+    background: red;
+    cursor: pointer;
+}
     
 
 /* MODAL - pop up window for artwork */

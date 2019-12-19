@@ -87,8 +87,11 @@ export default function Artwork() {
      <h1>ARTWORK</h1>
      
         <div id="myModal" className="modal">
+        
             <div class="modal-content">
-                <span onClick={ClickClose} className="close">&times;</span>
+                <div className='closeholder'>
+                <span className="close" onClick={ClickClose}>&times;</span>
+                </div>
                 <img id='img01' className='myImgsModal' onClick={ClickClose}/>
             </div>
         </div>
