@@ -25,15 +25,16 @@ export default function Artwork() {
     return(
         <div className='mainbox'>
             <h1>CODE PROJECTS</h1>
-                <button class="btn" onClick={openGitHub}>GitHub</button> 
+                <button class="btnU" onClick={openGitHub}>GitHub</button> 
             <div className='projectcontainer'>
                 <div className='project'>
                     <h2 className='textcolor'>React Redux App</h2>
                         <p className='textcolor'>Created a React App using Redux:
                             <br/>
                             <br/>
-                            <li>contains actions and reducers, and an API.</li>
-                            <li>using Microsofts 343 Studios, Halo 5 API.</li>
+                            <li>uses Microsoft - 343 Studios, Halo 5 API.</li>
+                            <li>contains actions, reducers, and API.</li>
+                            
                         </p>
                     <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
                     <button class="btn2" onClick={ReactReduxDeploy}>Deployed Site</button>

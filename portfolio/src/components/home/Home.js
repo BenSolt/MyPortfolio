@@ -28,7 +28,7 @@ export default function Home() {
         <div className="section1">
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
-              <h2> Currently, I am attending school at Lambda, online, for Web Design. I love
+              <h2>Currently, I am attending school at Lambda, online, for Web Design. I love
                 it and cant wait to use my experiences in the working world.
                 <br/>
                 <br/>

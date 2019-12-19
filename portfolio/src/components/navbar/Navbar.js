@@ -26,7 +26,7 @@ export default function Navbar() {
                 <NavLink className='navlink' to='/'>HOME</NavLink>
                 <NavLink className='navlink' to='/codework'>CODE </NavLink> 
                 <NavLink className='navlink' to='/artwork'>ARTWORK</NavLink> 
-                <NavLink className='navlink' to='/unreal'>UNREAL ENGINE</NavLink> 
+                <NavLink className='navlink' to='/unrealengine'>UNREAL ENGINE</NavLink> 
             </nav>
 
             <div className="darkModeHolder">
