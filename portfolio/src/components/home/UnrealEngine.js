@@ -7,7 +7,7 @@ export default function Artwork() {
          
         <div className='projectcontainer'>
             <div className='projectUnreal'>
-                <h2 className='textcolor'>Side Scroller</h2>
+                <h2 className='textcolor'>Factory</h2>
                     <p className='textcolor'>Factory
                         <br/>
                         <br/>
@@ -17,12 +17,15 @@ export default function Artwork() {
                     </p>
                     <div>
                         <button class="btnU">Github code</button>
-                    </div>
-                <iframe width="560" height="315" 
-                src="https://www.youtube.com/embed/xw9Jo15Og8w" 
-                frameborder="0" allow="accelerometer; autoplay; 
-                encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
+                   
+                        <iframe width="412" height="256"
+                            //width="560" height="315" 
+                            src="https://www.youtube.com/embed/xw9Jo15Og8w" 
+                            frameborder="0" allow="accelerometer; autoplay; 
+                            encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>  
+                        </iframe>
+                    </div> 
             </div>
 
             <div className='projectUnreal'>
@@ -32,19 +35,21 @@ export default function Artwork() {
                     against submarines. 
                         <br/>
                         <br/>
-                        <li>Upgrade ships health/appearance</li>
-                        <li>weapons</li>
-                        <li>enemies get harder with each level</li>
+                        <li>Upgrade ships health/appearance, weapons</li>
+                        <li>Enemies get harder with each level</li>
                         <li>Enemy Bosses</li>
                     </p>
                     <div>
                         <button class="btnU">Github code</button>
+                    
+                        <iframe width="412" height="256" 
+                            //width="560" height="315" 
+                            src="https://www.youtube.com/embed/-Tm8T6OvcI0" 
+                            frameborder="0" allow="accelerometer; autoplay; 
+                            encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>  
+                        </iframe>
                     </div>
-                <iframe width="560" height="315" 
-                src="https://www.youtube.com/embed/-Tm8T6OvcI0" 
-                frameborder="0" allow="accelerometer; autoplay; 
-                encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
             </div>
 
         </div> 
