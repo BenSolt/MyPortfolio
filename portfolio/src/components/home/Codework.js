@@ -28,8 +28,11 @@ export default function Artwork() {
 
     return(
         <div className='mainbox'>
+            <div className='title'>
             <h1>CODE PROJECTS</h1>
-                <button class="btnU" onClick={openGitHub}>GitHub</button> 
+            <h2 className='h2text'>Using HTML, CSS, Javascript.</h2>  
+            </div>
+                <button class="btnGit" onClick={openGitHub}>GitHub</button>
             <div className='projectcontainer'>
                 <div className='project'>
                     <h2 className='textcolor'>React Redux App</h2>

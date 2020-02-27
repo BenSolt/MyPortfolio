@@ -12,15 +12,10 @@ import Well from '../../images/BenSoltWell.png';
 
 export default function Artwork() {
    
-  
-    
-
     // const modal = document.getElementById("myModal")
     // var btn = document.getElementById("myBtn");
     // var span = document.getElementsByClassName("close")[0];
 
-   
-  
     const Click1 = (element) => {
         console.log('cliccck')
         document.getElementById("img01").src = Atlantis;
@@ -84,8 +79,10 @@ export default function Artwork() {
 
     return(
     <div className='mainbox'>
-     <h1>ARTWORK</h1>
-     
+        <div className='title'>
+            <h1>ARTWORK</h1>
+            <h2 className='h2text'>Created with 3D Studio Max and Photoshop.</h2>
+        </div>
         <div id="myModal" className="modal">
         
             <div class="modal-content">

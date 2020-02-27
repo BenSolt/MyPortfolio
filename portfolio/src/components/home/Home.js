@@ -22,7 +22,8 @@ export default function Home() {
       <div className='mainbox'>
 
         <div className='name'>
-          <h1>BENJAMIN SOLT</h1>
+          <h1>Benjamin Solt</h1>
+          <h2 className='h2text'>Web Developer</h2>
         </div>
 
         <div className="section1">

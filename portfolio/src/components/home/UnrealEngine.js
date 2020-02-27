@@ -3,20 +3,25 @@ import React from "react";
 export default function Artwork() {
     return(
     <div className='mainbox'>
-        <h1>UNREAL ENGINE PROJECTS</h1>
-         
+        <div className='title'>
+        <h1>UNREAL ENGINE</h1>
+        <h2 className='h2text'>Video Game Engine, enables one to create games from scratch.</h2>
+        </div>
         <div className='projectcontainer'>
             <div className='projectUnreal'>
-                <h2 className='textcolor'>Factory</h2>
-                    <p className='textcolor'>Factory
+                <h2 className='textcolor'>4 player couch co-op game</h2>
+                    <p className='textcolor'>A 2d game where players can battle it
+                    out until only one remains. Each player has a set number of lives.
+                    You can play with up to 4 people locally. 
+                    
                         <br/>
                         <br/>
-                        <li>Factory animation</li>
-                        <li>3D Studio Max</li>
-                        <li>Photshop</li>
+                        <li>Basic ammo - able to pickup after shooting </li>
+                        <li>Power weapons - rocket launcher</li>
+                        <li>Power ups - shield</li>
                     </p>
                     <div>
-                        <button class="btnU">Github code</button>
+                        {/* <button class="btnU">Github code</button> */}
                    
                         <iframe width="412" height="256"
                             //width="560" height="315" 
@@ -40,7 +45,7 @@ export default function Artwork() {
                         <li>Enemy Bosses</li>
                     </p>
                     <div>
-                        <button class="btnU">Github code</button>
+                        {/* <button class="btnU">Github code</button> */}
                     
                         <iframe width="412" height="256" 
                             //width="560" height="315" 

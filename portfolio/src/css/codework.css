@@ -1,3 +1,7 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
 .btn2{
     color: white;
     padding: 12px 12px 12px 12px;
@@ -29,4 +33,19 @@
 
 .textcolor{
    color: white; 
+}
+
+.btnGit{
+    width: 200px;
+    color: white;
+    padding: 12px 12px 12px 12px;
+    margin: 0 0 25px 0; 
+    border-radius: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background:  rgb(70, 70, 70);
+}
+
+.btnGit:hover{
+    background:  red;
 }
