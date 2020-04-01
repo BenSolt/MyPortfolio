@@ -12,15 +12,15 @@ export const useDarkMode = () => {
         
         if(darkMode === true){
             page.classList.add('dark-mode')
-            // page2.style.backgroundColor = 'red'
+// Code project cards.
             for (var i = 0; i < divbox.length; i++) {
-                divbox [i].style.backgroundColor = "gray"};
-
+                divbox [i].style.backgroundColor = "black"};
+//Unreal Project cards.
             for (var i = 0; i < divbox2.length; i++) {
-                divbox2 [i].style.backgroundColor = "gray"};
+                divbox2 [i].style.backgroundColor = "black"};
 
             for (var i = 0; i < text.length; i++) {
-                text [i].style.color = "black"};
+                text [i].style.color = "white"};
 
         }else{
             page.classList.remove('dark-mode') 

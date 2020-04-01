@@ -5,7 +5,7 @@ export default function Artwork() {
     <div className='mainbox'>
         <div className='title'>
         <h1>UNREAL ENGINE</h1>
-        <h2 className='h2text'>Video Game Engine, enables one to create games from scratch.</h2>
+        <h2 className='h2text'>Video Game Engine, enables one to create video games from scratch.</h2>
         </div>
         <div className='projectcontainer'>
             <div className='projectUnreal'>
@@ -34,13 +34,37 @@ export default function Artwork() {
             </div>
 
             <div className='projectUnreal'>
-                <h2 className='textcolor'>Ship Side Scroller</h2>
-                    <p className='textcolor'>You are a modern day ship, that is fighting
-                    enemy submarines. You can shoot missles at air, and drop depth charges
-                    against submarines. 
+                <h2 className='textcolor'>Side Scroller</h2>
+                    <p className='textcolor'> Metroidvania type game. You
+                    learn new abilities which allow you to progress through the game.
                         <br/>
                         <br/>
-                        <li>Upgrade ships health/appearance, weapons</li>
+                        <li>Upgrade health/energy, and weapons</li>
+                        <li>Double Jump</li>
+                        <li>Shrink - allows palyer to reach small areas</li>
+                        <li>Enemy Bosses</li>
+                    </p>
+                    <div>
+                        {/* <button class="btnU">Github code</button> */}
+                    
+                        <iframe width="412" height="256" 
+                            //width="560" height="315" 
+                            src="https://www.youtube.com/embed/-Tm8T6OvcI0" 
+                            frameborder="0" allow="accelerometer; autoplay; 
+                            encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>  
+                        </iframe>
+                    </div>
+            </div>
+
+            <div className='projectUnreal'>
+                <h2 className='textcolor'>Invaders</h2>
+                    <p className='textcolor'> Based of of the classic game
+                    of Space Invaders.
+                        <br/>
+                        <br/>
+                        <li>1 to 2 players</li>
+                        <li>Specials - shields, weapons</li>
                         <li>Enemies get harder with each level</li>
                         <li>Enemy Bosses</li>
                     </p>
@@ -56,6 +80,8 @@ export default function Artwork() {
                         </iframe>
                     </div>
             </div>
+
+            
 
         </div> 
   

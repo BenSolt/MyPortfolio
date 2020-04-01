@@ -5,6 +5,15 @@
     margin: 5px;
     border: 2px solid black;
 }
+
+.myVideos{
+    /* height:auto; */
+    /* width: 256px; */
+    /* width: 256px; */
+    margin: 5px;
+    border: 2px solid black;
+}
+
 .glyphicon{
     background:black;
 }

@@ -102,7 +102,16 @@ export default function Artwork() {
                 <img className='myImgs' onClick={Click5} src={Temple}/>
                 <img className='myImgs' onClick={Click6} src={Waterwheel}/>
                 <img className='myImgs' onClick={Click7} src={Well}/>
+                
+                <iframe className="myVideos"  width="412" height="256"
+                            //width="560" height="315" 
+                            src="https://www.youtube.com/embed/xw9Jo15Og8w" 
+                            frameborder="0" allow="accelerometer; autoplay; 
+                            encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>  
+                        </iframe>
             </div>
+          
         </div>
     </div>
     )
