@@ -9,27 +9,27 @@ export default function Artwork() {
         </div>
         <div className='projectcontainer'>
             <div className='projectUnreal'>
-                <h2 className='textcolor'>4 player couch co-op game</h2>
-                    <p className='textcolor'>A 2d game where players can battle it
-                    out until only one remains. Each player has a set number of lives.
-                    You can play with up to 4 people locally. 
+                <h2 className='textcolor'>4 player couch co-op</h2>
+                    <p className='textcolor'>A 2d Couch Co-Op game where up to 4 playeres
+                    can battle it out, until only one remains. 
                     
                         <br/>
                         <br/>
                         <li>Basic ammo - able to pickup after shooting </li>
                         <li>Power weapons - rocket launcher</li>
                         <li>Power ups - shield</li>
+                        <li>Multi layered levels - be in front or behind</li>
                     </p>
                     <div>
                         {/* <button class="btnU">Github code</button> */}
                    
-                        <iframe width="412" height="256"
+                        <iframe width="412" height="256" 
                             //width="560" height="315" 
-                            src="https://www.youtube.com/embed/xw9Jo15Og8w" 
-                            frameborder="0" allow="accelerometer; autoplay; 
-                            encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>  
-                        </iframe>
+                        src="https://www.youtube.com/embed/Y00Dp28n0Go" 
+                        frameborder="0" allow="accelerometer; autoplay; 
+                        encrypted-media; gyroscope; picture-in-picture"
+                         allowfullscreen>
+                         </iframe>
                     </div> 
             </div>
 
@@ -48,7 +48,6 @@ export default function Artwork() {
                         {/* <button class="btnU">Github code</button> */}
                     
                         <iframe width="412" height="256" 
-                            //width="560" height="315" 
                             src="https://www.youtube.com/embed/-Tm8T6OvcI0" 
                             frameborder="0" allow="accelerometer; autoplay; 
                             encrypted-media; gyroscope; picture-in-picture" 
@@ -59,7 +58,7 @@ export default function Artwork() {
 
             <div className='projectUnreal'>
                 <h2 className='textcolor'>Invaders</h2>
-                    <p className='textcolor'> Based of of the classic game
+                    <p className='textcolor'>Take on the classic game
                     of Space Invaders.
                         <br/>
                         <br/>
@@ -70,13 +69,12 @@ export default function Artwork() {
                     </p>
                     <div>
                         {/* <button class="btnU">Github code</button> */}
-                    
+            {/*UPLOAD INVADER VIDEO  */}
                         <iframe width="412" height="256" 
-                            //width="560" height="315" 
-                            src="https://www.youtube.com/embed/-Tm8T6OvcI0" 
+                            src="https://www.youtube.com/embed/_etRouEZEX4" 
                             frameborder="0" allow="accelerometer; autoplay; 
                             encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>  
+                            allowfullscreen>
                         </iframe>
                     </div>
             </div>
