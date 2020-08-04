@@ -14,6 +14,16 @@ export default function Navbar() {
       setDarkMode(!darkMode);
     }
 
+    function scrollProjects() {
+        var elmnt = document.getElementById("contentProjects");
+        elmnt.scrollIntoView();
+      }
+
+    function scrollArt() {
+        var elmnt = document.getElementById("contentArt");
+        elmnt.scrollIntoView();
+      }
+
     return(
         
     <div className='Navbarholder'>
@@ -23,10 +33,11 @@ export default function Navbar() {
 
           
             <nav>
-                <NavLink className='navlink' to='/'>HOME</NavLink>
-                <NavLink className='navlink' to='/codework'>PROJECTS </NavLink> 
-                <NavLink className='navlink' to='/artwork'>ARTWORK</NavLink> 
-                {/* <NavLink className='navlink' to='/unrealengine'>UNREAL ENGINE</NavLink>  */}
+                {/* <NavLink className='navlink' to='/'>HOME</NavLink> */}
+                <button onClick={scrollProjects} className='navlink'>PROJECTS</button>
+                <button onClick={scrollArt} className='navlink'>ARTWORK</button>
+                {/* <NavLink className='navlink' to='/artwork'>ARTWORK</NavLink>  */}
+                
             </nav>
 
             <div className="darkModeHolder">

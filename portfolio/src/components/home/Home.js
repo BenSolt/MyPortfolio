@@ -1,7 +1,10 @@
 import React from "react";
 import BenKaylee from '../../images/BenandKaylee.jpg';
 
-import Footer from '../../components/navbar/Footer';
+import Projects from './Projects';
+import Artwork from './Artwork';
+
+
 
 
 
@@ -19,20 +22,24 @@ export default function Home() {
     console.log('resume')
     // window.open("Ben Solt -Resume 2019.pdf");
   }
+
+//////////////// SCROLL TEST///////////////////////////////////////////
+
+
   
     return(
       <div className='mainbox'>
 
-        <div className='name'>
-          <h1>Benjamin Solt</h1>
-          <h2 className='h2text'>Web Developer</h2>
+        <div className='title'>
+          <h1>BENJAMIN SOLT</h1>
+          <h2 className='h2text'>Full Stack Developer</h2>
         </div>
 
         <div className="section1">
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
               <h2>Currently, I am attending school at Lambda, online, for Web Design. I love
-                it and cant wait to use my experiences in the working world.
+                it and cant wait to use my experiences and knowledge to create a functional working application.
                 <br/>
                 Additionally, I have a Bachelors in Media Arts and Animation, several years
                 of experience in retail - working on a team and interacting with customers.
@@ -47,7 +54,7 @@ export default function Home() {
         </div>
 
         
-
+{/* ////////////////CONTACT INFO///////////////////////////////// */}
         <div className="sectionContact">
 
           <div className="contactbox">
@@ -77,13 +84,21 @@ export default function Home() {
 
           </div>
         </div>
-    
-              {/* <img  className="imag1" src={Imagee} 
-                 style={{objectFit: "none"}}/>
-              <img  className="imag2" src={Imagee} 
-                 style={{objectFit: "none"}}/>
-              <img  className="imagdefault" src={Imagee}/>  */}
-                
+
+
+{/*////////////// PROJECTS///////////////////////////////////////////// */}
+        <div className="section2">
+
+          <div id="contentProjects">
+            <Projects/>
+          </div> 
+          <div id="contentArt">
+            <Artwork/>
+          </div>
+
+        </div>
+
       </div>
+            
     );
 }

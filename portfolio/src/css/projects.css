@@ -1,0 +1,111 @@
+.title{
+    margin: 35px 0 35px 0;
+    display: flex;
+    justify-content: center;
+    background: gray;
+    
+}
+
+.btn2Holder{
+    margin-top: 20px; 
+}
+
+.btn2{
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background:  rgb(70, 70, 70);
+}
+
+.btn2:hover{
+    background:  red;
+}
+
+
+
+.btnGit{
+    width: 200px;
+    color: white;
+    padding: 12px 12px 12px 12px;
+    margin: 10px 0 10px 25px; 
+    border-radius: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background:  rgb(70, 70, 70);
+}
+
+.btnGit:hover{
+    background:  red;
+}
+
+.projectcontainer{
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap; 
+}
+
+.projectConway{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/ConwayLife.PNG');
+    display: flex;
+    margin: 1%;
+    padding: 12px;
+    border: 2px solid black;
+    width: 90%;
+    height: 300px; 
+    border-radius: 5px;
+}
+
+
+.projectGroa{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/Groa.jpg');
+    display: flex;
+    margin: 1%;
+    padding: 12px;
+    border: 2px solid black;
+    width: 90%;
+    height: 300px; 
+    border-radius: 5px;
+}
+
+.projectHalo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/api-halo5.jpg');
+    display: flex;
+    margin: 1%;
+    padding: 12px;
+    border: 2px solid black;
+    width: 90%;
+    height: 300px; 
+    border-radius: 5px;
+}
+
+.projectUnreal{
+   
+    display: flex;
+    margin: 1%;
+    padding: 12px;
+    border: 2px solid black;
+    width: 90%;
+    height: 300px; 
+    border-radius: 5px;
+}
+
+
+
+
+.projectText{
+    width: 80%;
+}
+
+.textcolor{
+   color: white; 
+}
+
+
+

@@ -8,13 +8,13 @@ import './css/footer.css';
 import './css/home.css';
 import './css/artworkk.css';
 import './css/artworkkMedia.css';
-import './css/codework.css';
+import './css/projects.css';
 
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/navbar/Footer';
 import Home from './components/home/Home';
 import Artwork from './components/home/Artwork';
-import Codework from './components/home/Codework';
+import Codework from './components/home/Projects';
 import UnrealEngine from './components/home/UnrealEngine';
 
 import { Route } from "react-router-dom";
