@@ -1,9 +1,31 @@
 import React from "react";
 
-
+import Unreal from './UnrealEngine';
 
 export default function Artwork() {
 
+    // GROA
+    function GroaGithub() {
+        // window.open("https://github.com/Lambda-School-Labs/Groa-fe");
+      }
+
+    function GroaDeploy() {
+        console.log('Deploy link')
+        // window.open("https://www.groa.us/");
+      }
+
+    
+    ////////GAME LIFE/////////////////////////////////////////////////  
+    function ConWayGithub() {
+        window.open("https://github.com/BenSolt/gameoflife");
+      }
+
+    function Deploy() {
+        console.log('Deploy link')
+        // window.open("https://my-app-2c4n54ugl.now.sh/");
+      }
+    
+    // HALO // ////////////////////////////////////////////
     function ReactReduxGithub() {
         window.open("https://github.com/BenSolt/React-Redux-App2");
       }
@@ -11,16 +33,7 @@ export default function Artwork() {
     function ReactReduxDeploy() {
         window.open("https://my-app-2c4n54ugl.now.sh/");
       }
-    /////////////////////////////////////////////////////////  
-    function Github() {
-        console.log('Github link')
-        //window.open("https://github.com/BenSolt/React-Redux-App2");
-      }
 
-    function Deploy() {
-        console.log('Deploy link')
-        // window.open("https://my-app-2c4n54ugl.now.sh/");
-      }
 
     function openGitHub() {
         window.open("https://github.com/BenSolt/");
@@ -30,47 +43,79 @@ export default function Artwork() {
         <div className='mainbox'>
             <div className='title'>
             <h1>CODE PROJECTS</h1>
-            <h2 className='h2text'>Using HTML, CSS, Javascript.</h2>  
+            <h2 className='h2text'>Using HTML, CSS, Javascript, Python.</h2>  
             </div>
                 <button class="btnGit" onClick={openGitHub}>GitHub</button>
             <div className='projectcontainer'>
-                <div className='project'>
-                    <h2 className='textcolor'>React Redux App</h2>
-                        <p className='textcolor'>Created a React App using Redux:
-                            <br/>
-                            <br/>
-                            <li>uses Microsoft - 343 Studios, Halo 5 API.</li>
-                            <li>contains actions, reducers, and API.</li>
+                
+
+            <div className='project'>
+
+                <div className='projectText'> 
+                    <h1 className='textcolor'>Groa</h1>
+                        <h2 className='textcolor'>Built to recommend movies to user, based on how user rates movies
+                        HTML/CSS | JavaScript | React | AWS
                             
-                        </p>
-                    <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
-                    <button class="btn2" onClick={ReactReduxDeploy}>Deployed Site</button>
+                            <br/>
+                            <li>As Front End Developer built Authorization, Login, display layout of movie info</li>
+
+                            <li> Solved problems and trouble shot bugs with team members</li>      
+                            <li>Collaborated remotely with team of 6 web developers, 2 data science, and 1 UX designer</li>
+                        
+                        </h2>
+                    </div>   
+                    
+                    <div className='b'>
+                        <button class="btn2" onClick={GroaGithub}>Github code</button>
+                        <button class="btn2" onClick={GroaDeploy}>Deployed Site</button>
+                    </div>
+
                 </div>
 
+
+                
                 <div className='project'>
-                    <h2 className='textcolor'>Project 2</h2>
-                        <p className='textcolor'>Project description
-                            <br/>
-                            <br/>
-                            <li>bullet points</li>
-                        </p>
-                    <button class="btn2" onClick={Github}>Github code</button>
-                    <button class="btn2" onClick={Deploy}>Deployed Site</button>
+
+                    <div className='projectText'> 
+                        <h1 className='textcolor'>Conways Game of</h1>
+                            <h2 className='textcolor'>Project description
+                                <br/>
+                                <li>bullet points</li>
+                            </h2>
+                        </div> 
+
+                        <div className='b'>
+                            <button class="btn2" onClick={ConWayGithub}>Github code</button>
+                            <button class="btn2" onClick={Deploy}>Deployed Site</button>
+                        </div>
+                    
+                </div>
+                
+
+                <div className='project1'>
+
+                    <div className='projectText'>
+                        <h1 className='textcolor'>React Redux App</h1>
+                            <h2 className='textcolor'>Created a React App using Redux: 
+                                <br/>
+                                <li>uses Microsoft - 343 Studios, Halo 5 API.</li>
+                                <li>contains actions, reducers, and API.</li>
+                            </h2>
+                    </div>
+
+                    <div className='b'>
+                        <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
+                        <button class="btn2" onClick={ReactReduxDeploy}>Deployed Site</button>
+                    </div>
+
                 </div>
 
-                <div className='project'>
-                    <h2 className='textcolor'>Project 3</h2>
-                        <p className='textcolor'>Project description
-                            <br/>
-                            <br/>
-                            <li>bullet points</li>
-                           
-                        </p>
-                    <button class="btn2" onClick={Github}>Github code</button>
-                    <button class="btn2" onClick={Deploy}>Deployed Site</button>
-                </div>
-
+            {/* END PROJECT CONTAINER */}
+            </div> 
+            <div>
+                <Unreal/>
             </div>
+
             
             
         </div>

@@ -1,11 +1,9 @@
 .btn{
     color: white;
-    /* border: 2px solid black; */
     padding: 12px 12px 12px 12px;
     margin: 0 10px 0 10px; 
     border-radius: 2px;
     font-size: 1.4rem;
-    /* text-decoration: none; */
     font-weight: bold;
     background:  rgb(70, 70, 70);
 }
@@ -39,10 +37,12 @@
 
 .litext{
     margin: 5px 0 0 0;
+    font-size: 24px;
 }
 
-li{
-    padding: 2px; 
+li{ 
+    padding: 1px;
+    
 }
 
 .textgold{
@@ -55,7 +55,7 @@ li{
 /* IMAGE BEN AND KAYLEE */
 .section1{
 display:flex;
-/* border: 2px solid green; */
+
 }
 
    
@@ -127,9 +127,8 @@ h2{
     display:flex;
     /* flex-direction: column; */
     justify-content: space-between;
-    margin: 15px 35px 0 35px;
+    margin: 15px 15% 0 15%;
     border-top: 3px solid black;
-    /* border: 2px solid black; */
 }
 
 

@@ -1,10 +1,12 @@
 .title{
+    margin-top: 12px;
     display: flex;
     justify-content: center;
+    /* background: gray; */
 }
 .btn2{
     color: white;
-    padding: 12px 12px 12px 12px;
+    padding: 12px;
     margin: 10px; 
     border-radius: 2px;
     font-size: 1.2rem;
@@ -17,18 +19,40 @@
 }
 
 .projectcontainer{
+    justify-content: center;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap:wrap; 
 }
 
 .project{
+    display: flex;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
-    width: 265px;
-    height: auto; 
+    width: 90%;
+    height: 300px; 
     background: black; 
     border-radius: 5px;
+}
+
+.project1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/api-halo5.jpg');
+    display: flex;
+    margin: 1%;
+    padding: 12px;
+    border: 2px solid black;
+    width: 90%;
+    height: 300px; 
+    /* background: black;  */
+    border-radius: 5px;
+}
+
+.projectText{
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
 }
 
 .textcolor{
@@ -49,3 +73,4 @@
 .btnGit:hover{
     background:  red;
 }
+

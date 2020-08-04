@@ -67,7 +67,7 @@ export default function Artwork() {
 
 
       window.onclick = function(e) {
-        if (e.target == document.getElementById("myModal")) {
+        if (e.target === document.getElementById("myModal")) {
             document.getElementById("myModal").style.display = "none";
         }
       }
@@ -89,19 +89,19 @@ export default function Artwork() {
                 <div className='closeholder'>
                 <span className="close" onClick={ClickClose}>&times;</span>
                 </div>
-                <img id='img01' className='myImgsModal' onClick={ClickClose}/>
+                <img id='img01' className='myImgsModal' onClick={ClickClose} alt='aaa'/>
             </div>
         </div>
 
         <div >
             <div>
-                <img id='myImg' className='myImgs' onClick={Click1} src={Atlantis}/>
-                <img className='myImgs' onClick={Click2} src={Factory}/>
-                <img className='myImgs' onClick={Click3} src={Hydra}/>
-                <img className='myImgs' onClick={Click4} src={Refinery}/>
-                <img className='myImgs' onClick={Click5} src={Temple}/>
-                <img className='myImgs' onClick={Click6} src={Waterwheel}/>
-                <img className='myImgs' onClick={Click7} src={Well}/>
+                <img id='myImg' className='myImgs' onClick={Click1} src={Atlantis} alt='Atlantean Temple'/>
+                <img className='myImgs' onClick={Click2} src={Factory} alt='Factory'/>
+                <img className='myImgs' onClick={Click3} src={Hydra} alt='Hydra two headed monster'/>
+                <img className='myImgs' onClick={Click4} src={Refinery} alt='Space Refinery'/>
+                <img className='myImgs' onClick={Click5} src={Temple} alt='Temple'/>
+                <img className='myImgs' onClick={Click6} src={Waterwheel} alt='WaterWheel'/>
+                <img className='myImgs' onClick={Click7} src={Well} alt='Well'/>
                 
                 <iframe className="myVideos"  width="412" height="256"
                             //width="560" height="315" 

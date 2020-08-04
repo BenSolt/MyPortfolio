@@ -3,6 +3,8 @@ import BenKaylee from '../../images/BenandKaylee.jpg';
 
 import Footer from '../../components/navbar/Footer';
 
+
+
 export default function Home() {
 
   function openLinkedIn() {
@@ -32,16 +34,19 @@ export default function Home() {
               <h2>Currently, I am attending school at Lambda, online, for Web Design. I love
                 it and cant wait to use my experiences in the working world.
                 <br/>
-                <br/>
                 Additionally, I have a Bachelors in Media Arts and Animation, several years
                 of experience in retail - working on a team and interacting with customers.
-                <br/>
                 <br/>
                 I also enjoy hanging out with family/friends, playing sports,
                 and working with the Unreal Engine. 
               </h2>
             </div>
+
+          
+
         </div>
+
+        
 
         <div className="sectionContact">
 
@@ -57,11 +62,13 @@ export default function Home() {
             <h2 className='margintext1'>Skills</h2>
               <div className='ulholder'>
                 <ul className='litext'>
-                  <li>Javascript</li>
                   <li>CSS, HTML</li>
-                  <li>Adobe Creative Suite</li>
+                  <li>Javascript</li>
+                  <li>Python</li>
+                 
                 </ul>
                 <ul className='litext'>
+                <li>Adobe Creative Suite</li>
                   <li>3D Studio Max</li>
                   <li>Unreal Engine</li>
                 </ul>

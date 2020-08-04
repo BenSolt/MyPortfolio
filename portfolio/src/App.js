@@ -9,7 +9,6 @@ import './css/home.css';
 import './css/artworkk.css';
 import './css/artworkkMedia.css';
 import './css/codework.css';
-import './css/unreal.css';
 
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/navbar/Footer';
