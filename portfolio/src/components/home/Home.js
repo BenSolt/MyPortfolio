@@ -2,6 +2,7 @@ import React from "react";
 import BenKaylee from '../../images/BenandKaylee.jpg';
 
 import Projects from './Projects';
+import Unreal from './UnrealEngine';
 import Artwork from './Artwork';
 
 
@@ -91,6 +92,11 @@ export default function Home() {
           <div id="contentProjects">
             <Projects/>
           </div> 
+
+          <div id="contentUnrealProjects">
+            <Unreal/>
+          </div> 
+          
           <div id="contentArt">
             <Artwork/>
           </div>

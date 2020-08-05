@@ -19,6 +19,11 @@ export default function Navbar() {
         elmnt.scrollIntoView();
       }
 
+    function scrollUnrealProjects() {
+        var elmnt = document.getElementById("contentUnrealProjects");
+        elmnt.scrollIntoView();
+      }  
+
     function scrollArt() {
         var elmnt = document.getElementById("contentArt");
         elmnt.scrollIntoView();
@@ -35,6 +40,7 @@ export default function Navbar() {
             <nav>
                 {/* <NavLink className='navlink' to='/'>HOME</NavLink> */}
                 <button onClick={scrollProjects} className='navlink'>PROJECTS</button>
+                <button onClick={scrollUnrealProjects} className='navlink'>UNREAL ENGINE PROJECTS</button>
                 <button onClick={scrollArt} className='navlink'>ARTWORK</button>
                 {/* <NavLink className='navlink' to='/artwork'>ARTWORK</NavLink>  */}
                 

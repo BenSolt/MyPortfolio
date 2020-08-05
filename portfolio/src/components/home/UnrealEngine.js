@@ -45,7 +45,7 @@ export default function Unreal() {
                           
                             <li>Upgrade health/energy, and weapons</li>
                             <li>Double Jump</li>
-                            <li>Shrink - allows palyer to reach small areas</li>
+                            <li>Inventory and pickup items, which increase player stats</li>
                             <li>Enemy Bosses</li>
                         </h2>
                 

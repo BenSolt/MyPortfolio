@@ -2,7 +2,7 @@
     margin: 35px 0 35px 0;
     display: flex;
     justify-content: center;
-    background: gray;
+    background: rgb(97, 97, 97);
     
 }
 
@@ -90,7 +90,8 @@
     display: flex;
     margin: 1%;
     padding: 12px;
-    border: 2px solid black;
+    background: rgb(97, 97, 97);
+    border: 2px solid rgb(0, 1, 77);
     width: 90%;
     height: 300px; 
     border-radius: 5px;
