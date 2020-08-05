@@ -97,8 +97,6 @@
 }
 
 
-
-
 .projectText{
     width: 80%;
 }
@@ -107,5 +105,8 @@
    color: white; 
 }
 
+.youtubevideo{
+    padding-top: 15px;
+}
 
 

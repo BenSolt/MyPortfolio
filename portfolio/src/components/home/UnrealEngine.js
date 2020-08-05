@@ -24,9 +24,7 @@ export default function Unreal() {
                         </h2>
                 </div> 
 
-                    <div>
-                        {/* <button class="btnU">Github code</button> */}
-                   
+                    <div className='youtubevideo'>
                         <iframe width="412" height="256" 
                             //width="560" height="315"
                         title="Couch Co-Op" 
@@ -54,9 +52,7 @@ export default function Unreal() {
                 </div>
 
                 
-                <div>
-                    {/* <button class="btnU">Github code</button> */}
-                    
+                <div className='youtubevideo'>
                     <iframe width="412" height="256" 
                         title="Side Scroller" 
                         src="https://www.youtube.com/embed/-Tm8T6OvcI0" 
@@ -82,7 +78,7 @@ export default function Unreal() {
                         </h2>
                 </div>
 
-                    <div>
+                    <div className='youtubevideo'>
                         <iframe width="412" height="256" 
                             title="Space Invader" 
                             src="https://www.youtube.com/embed/_etRouEZEX4" 
