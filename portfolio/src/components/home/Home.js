@@ -26,7 +26,6 @@ export default function Home() {
 //////////////// SCROLL TEST///////////////////////////////////////////
 
 
-  
     return(
       <div className='mainbox'>
 
