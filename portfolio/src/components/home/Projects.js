@@ -96,8 +96,8 @@ export default function Projects() {
                         <h1 className='textcolor'>React Redux App</h1>
                             <h2 className='textcolor'>Created a React App using Redux: 
                                 
-                                <li>uses Microsoft - 343 Studios, Halo 5 API.</li>
-                                <li>contains actions, reducers, and API.</li>
+                                <li>uses Microsoft - 343 Studios, Halo 5 API</li>
+                                <li>contains actions, reducers, and API</li>
                             </h2>
                     </div>
 
