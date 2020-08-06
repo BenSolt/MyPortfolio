@@ -20,8 +20,7 @@ export default function Home() {
   }
 
   function openResume() {
-    console.log('resume')
-    // window.open("Ben Solt -Resume 2019.pdf");
+    window.open("Benjamin Solt Resume.pdf");
   }
 
 //////////////// SCROLL TEST///////////////////////////////////////////
