@@ -13,9 +13,9 @@ export default function Unreal() {
             <div className='projectUnreal'>
 
                 <div className='projectText'> 
-                    <h2 className='textcolor'>4 player couch co-op</h2>
-                        <h2 className='textcolor'>A 2d Couch Co-Op game where up to 4 playeres
-                        can battle it out, until only one remains. Using Blueprints
+                    <h2 className='textcolorTitle'>4 player couch co-op</h2>
+                        <h2 className='textcolor'>A 2d couch co-op game where up to 4 playeres
+                        can battle it out, until only one remains. Uses Blueprints
 
                             <li>Basic ammo - able to pickup after shooting </li>
                             <li>Power weapons - rocket launcher</li>
@@ -39,9 +39,9 @@ export default function Unreal() {
             <div className='projectUnreal'>
 
                 <div className='projectText'> 
-                    <h2 className='textcolor'>Side Scroller</h2>
-                        <h2 className='textcolor'> Metroidvania type game. You
-                        learn new abilities which allow you to progress through the game. Using Blueprints
+                    <h2 className='textcolorTitle'>Side Scroller</h2>
+                        <h2 className='textcolor'> 
+                        Learn new abilities which allow you to progress through the game, like Double Jump. Uses Blueprints
                             
                             <li>Inventory and pickup items, which increase player stats</li>
                             <li>Double Jump</li>
@@ -66,9 +66,9 @@ export default function Unreal() {
             <div className='projectUnreal'>
 
                 <div className='projectText'> 
-                    <h2 className='textcolor'>Invaders</h2>
+                    <h2 className='textcolorTitle'>Invaders</h2>
                         <h2 className='textcolor'>Take on the classic game
-                        of Space Invaders. Using Blueprints
+                        of Space Invaders. Uses Blueprints
                             
                             <li>1 to 2 players</li>
                             <li>Specials - shields, weapons</li>

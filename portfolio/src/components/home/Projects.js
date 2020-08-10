@@ -44,7 +44,6 @@ export default function Projects() {
             <div className='title'>
             <h1>CODE PROJECTS</h1>
             <h2 className='h2text'>Using HTML, CSS, Javascript, Python.</h2> 
-            <button class="btnGit" onClick={openGitHub}>My GitHub</button> 
             </div>
                 
             <div className='projectcontainer'>
@@ -53,10 +52,10 @@ export default function Projects() {
             <div className='projectGroa'>
 
                 <div className='projectText'> 
-                    <h1 className='textcolor'>Groa</h1>
+                    <h1 className='textcolorTitle'>Groa</h1>
                         <h2 className='textcolor'>Built to recommend movies to user, based on how user rates movies
-                        HTML/CSS | JavaScript | React | AWS
-                            
+                        
+                            <li>HTML | CSS | JavaScript | React | AWS</li>
                             <li>As Front End Developer built Authorization, Login, display layout of movie info</li>
                             <li> Solved problems and trouble shot bugs with team members</li>      
                             <li>Collaborated remotely with team of 6 web developers, 2 data science, and 1 UX designer</li>
@@ -75,10 +74,12 @@ export default function Projects() {
                 <div className='projectConway'>
 
                     <div className='projectText'> 
-                        <h1 className='textcolor'>Conways Game of Life</h1>
-                            <h2 className='textcolor'>Project description
-                                
-                                <li>bullet points</li>
+                        <h1 className='textcolorTitle'>Conways Game of Life</h1>
+                            <h2 className='textcolor'><a className="Conwaylink" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>
+                            &nbsp; is a cellular automaton created by the British mathematician John Horton Conway in 1970. 
+                                The user creates an initial configuration and it evolves by itself. It is &nbsp;<a className="Conwaylink" href ="https://en.wikipedia.org/wiki/Turing_completeness">Turning Complete</a>
+                                <li>HTML | CSS | JavaScript | React |</li>
+                               
                             </h2>
                     </div> 
 
@@ -93,11 +94,13 @@ export default function Projects() {
                 <div className='projectHalo'>
 
                     <div className='projectText'>
-                        <h1 className='textcolor'>React Redux App</h1>
-                            <h2 className='textcolor'>Created a React App using Redux: 
-                                
-                                <li>uses Microsoft - 343 Studios, Halo 5 API</li>
-                                <li>contains actions, reducers, and API</li>
+                        <h1 className='textcolorTitle'>React Redux App</h1>
+                            <h2 className='textcolor'>
+                            Built to demonstrate API call and Redux
+                                <li>HTML | CSS | JavaScript | React | Redux | Halo API</li>
+                                <li>Implemented Halo API database to visualize data from site</li>
+                                <li>Built a filter to allow a user to search by name of player</li>
+                                <li>Using Microsoft - 343 Studios, Halo 5 API</li>
                             </h2>
                     </div>
 

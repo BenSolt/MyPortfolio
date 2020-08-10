@@ -6,8 +6,15 @@
     
 }
 
+.Conwaylink{
+color: white;
+
+/* text-decoration: none; */
+}
+
 .btn2Holder{
     margin-top: 20px; 
+    width: 20%;
 }
 
 .btn2{
@@ -102,9 +109,15 @@
     width: 80%;
 }
 
-.textcolor{
-   color: white; 
+.textcolorTitle{
+   color: white;
+   
 }
+
+.textcolor{
+    color: white;
+
+ }
 
 .youtubevideo{
     padding-top: 15px;
