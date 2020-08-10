@@ -6,12 +6,12 @@ export default function Projects() {
 
     // GROA
     function GroaGithub() {
-        // window.open("https://github.com/Lambda-School-Labs/Groa-fe");
+        window.open("https://github.com/Lambda-School-Labs/Groa-fe");
       }
 
     function GroaDeploy() {
         console.log('Deploy link')
-        // window.open("https://www.groa.us/");
+        window.open("https://www.groa.us/");
       }
 
     
