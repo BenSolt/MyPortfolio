@@ -72,18 +72,22 @@ export default function Home() {
                   <li> HTML</li>
                   <li>React</li>
                   <li>Javascript</li>
-                  <li>Git/GitHub</li>
-                  <li>Redux</li>
-                 
                   
                 </ul>
-              
+
                 <ul className='litext'>
-                  <li>Adobe Creative Suite</li>
-                  <li>3D Studio Max</li>
-                  <li>Unreal Engine</li>
+                  <li>Git/GitHub</li>
+                  <li>Redux</li>
                   <li>Node.js</li>
                   <li>Python</li>
+                </ul>
+
+                <ul className='litext'>
+                  <li>Adobe Creative Suite</li>
+                  <li>Unreal Engine</li>
+                  <li>3D Studio Max</li>
+                  
+                  
                 </ul>
 
               </div>
