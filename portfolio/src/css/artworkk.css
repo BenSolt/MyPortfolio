@@ -22,12 +22,13 @@
   
   border: 2px solid black;
 }
+
 /* //////////////////////// */
 
 .myImgs:hover{
     cursor: pointer;
     border: 2px solid red;
-    }
+}
 
 .myImgsModal{
     height:auto;
@@ -45,13 +46,11 @@
     background: rgb(134, 134, 134);  
 }
 
-
-
 .closeholder:hover{
     background: red;
     cursor: pointer;
 }
-    
+
 
 /* MODAL - pop up window for artwork */
 
@@ -66,7 +65,7 @@
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
-  }
+}
 
     
   
@@ -76,6 +75,6 @@
     padding: 20px;
     border: 1px solid #888;
     width: 45%; 
-  }
+}
 
  

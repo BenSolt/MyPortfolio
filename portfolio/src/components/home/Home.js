@@ -37,14 +37,14 @@ export default function Home() {
         <div className="section1">
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
-              <h2>Currently, I am attending school at Lambda, online, for Web Design. I love
+              <h2>Currently attending Lambda(remote) to become a Full Stack Developer.
                 it and cant wait to use my experiences and knowledge to create a functional working application.
                 <br/>
                 Additionally, I have a Bachelors in Media Arts and Animation, several years
                 of experience in retail - working on a team and interacting with customers.
                 <br/>
                 I also enjoy hanging out with family/friends, playing sports,
-                and working with the Unreal Engine. 
+                and working with Epic Game's Unreal Engine. 
               </h2>
             </div>
 
@@ -64,21 +64,30 @@ export default function Home() {
               <button class="btn" onClick={openResume}>Resume</button>
           </div>
           
-          <div className="skillbox">
-            <h2 className='margintext1'>Skills</h2>
+          <div>
+            <h2 className="margintext2">Skills</h2>
               <div className='ulholder'>
                 <ul className='litext'>
-                  <li>CSS, HTML</li>
+                  <li>CSS</li>
+                  <li> HTML</li>
+                  <li>React</li>
                   <li>Javascript</li>
-                  <li>Python</li>
+                  <li>Git/GitHub</li>
+                  <li>Redux</li>
                  
+                  
                 </ul>
+              
                 <ul className='litext'>
-                <li>Adobe Creative Suite</li>
+                  <li>Adobe Creative Suite</li>
                   <li>3D Studio Max</li>
                   <li>Unreal Engine</li>
+                  <li>Node.js</li>
+                  <li>Python</li>
                 </ul>
+
               </div>
+             
             
 
           </div>

@@ -13,7 +13,7 @@ export default function Unreal() {
             <div className='projectUnreal'>
 
                 <div className='projectText'> 
-                    <h2 className='textcolorTitle'>4 player couch co-op</h2>
+                    <h1 className='textcolorTitle'>4 player couch co-op</h1>
                         <h2 className='textcolor'>A 2d couch co-op game where up to 4 playeres
                         can battle it out, until only one remains. Uses Blueprints
 
@@ -26,7 +26,6 @@ export default function Unreal() {
 
                     <div className='youtubevideo'>
                         <iframe width="412" height="256" 
-                            //width="560" height="315"
                         title="Couch Co-Op" 
                         src="https://www.youtube.com/embed/Y00Dp28n0Go" 
                         frameborder="0" allow="accelerometer; autoplay; 
@@ -39,26 +38,27 @@ export default function Unreal() {
             <div className='projectUnreal'>
 
                 <div className='projectText'> 
-                    <h2 className='textcolorTitle'>Side Scroller</h2>
+                    <h1 className='textcolorTitle'>Side Scroller</h1>
                         <h2 className='textcolor'> 
                         Learn new abilities which allow you to progress through the game, like Double Jump. Uses Blueprints
                             
                             <li>Inventory and pickup items, which increase player stats</li>
+                            <li>Spawn Teddy to help you fight</li>
                             <li>Double Jump</li>
                             <li>Enemy Bosses</li>
+                            
                         </h2>
                 
                 </div>
 
                 
                 <div className='youtubevideo'>
-                    <iframe width="412" height="256" 
-                        title="Side Scroller" 
-                        src="https://www.youtube.com/embed/-Tm8T6OvcI0" 
-                        frameborder="0" allow="accelerometer; autoplay; 
-                        encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>  
-                    </iframe>
+                    <iframe width="412" height="256 " 
+                    src="https://www.youtube.com/embed/2hpcdBPcBa0" 
+                    frameborder="0" allow="accelerometer; autoplay; 
+                    encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe> 
                 </div>
 
             </div>
@@ -66,13 +66,13 @@ export default function Unreal() {
             <div className='projectUnreal'>
 
                 <div className='projectText'> 
-                    <h2 className='textcolorTitle'>Invaders</h2>
+                    <h1 className='textcolorTitle'>Invaders</h1>
                         <h2 className='textcolor'>Take on the classic game
                         of Space Invaders. Uses Blueprints
                             
                             <li>1 to 2 players</li>
                             <li>Specials - shields, weapons</li>
-                            <li>Enemies get harder with each level</li>
+                            <li>Enemies get harder as progress</li>
                             <li>Enemy Bosses</li>
                         </h2>
                 </div>

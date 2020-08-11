@@ -12,8 +12,6 @@
     background:  red;
 }
 
-
-
 .imag1{
     object-Position: 0px 0px;
     height: 128px;
@@ -27,22 +25,30 @@
     width: 128px;  
     border: 2px solid black;    
 }
+
 .imagdefault{
     height: 256px;
     width: 256px;  
     border: 2px solid black;    
 }
 
+.margintext2{
+    font-weight: 700;
+}
 
+.ulholder{
+    display: flex;
+}
 
 .litext{
+    text-align: left;
     margin: 5px 0 0 0;
     font-size: 24px;
 }
 
+/* BUllet Point */
 li{ 
-    padding: 1px;
-    
+    padding: 1px;    
 }
 
 .textgold{
@@ -54,12 +60,8 @@ li{
 
 /* IMAGE BEN AND KAYLEE */
 .section1{
-display:flex;
-
+    display:flex;
 }
-
-   
-
 
     @media only screen and (max-width: 500px) {
         .section1{
@@ -71,7 +73,6 @@ display:flex;
 .name{
     display:flex;
     justify-content: center;
-    /* border: 2px solid blue;  */
 }
 
 .h2text{
@@ -101,8 +102,7 @@ h2{
     @media only screen and (max-width: 800px) {
         .imgBenKaylee{
         height:auto;
-        width: 320px;
-       
+        width: 320px; 
         }
     }
 
@@ -116,16 +116,13 @@ h2{
 /* END BEN AND KAYLEE */
 
 .textholder1{
-    /* display:flex;   */
     padding: 0 20px 0 20px;
-    /* border: 2px solid green; */
 }
  
 
 /* SECTION 2 */
 .sectionContact{
     display:flex;
-    /* flex-direction: column; */
     justify-content: space-between;
     margin: 15px 15% 0 15%;
     border-top: 3px solid black;
@@ -139,10 +136,8 @@ h2{
             flex-direction: column;
             justify-content: space-between;
             padding: 15px 0 15px 0;
-            border-top: 2px solid black;
-           
+            border-top: 2px solid black;   
         }
-
     }
 
     @media only screen and (max-width: 320px) {
@@ -153,13 +148,8 @@ h2{
             justify-content: space-between;
             margin: 5px;
             padding: 10px 0 10px 0;
-            border-top: 2px solid black;
-           
+            border-top: 2px solid black;    
         }
     }
 
 
-
-.ulholder{
-    display: flex;
-}
