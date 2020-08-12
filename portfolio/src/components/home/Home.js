@@ -69,7 +69,8 @@ export default function Home() {
               <div className='ulholder'>
                 <ul className='litext'>
                   <li>CSS</li>
-                  <li> HTML</li>
+                  <li>HTML</li>
+                  <li>SASS</li>
                   <li>React</li>
                   <li>Javascript</li>
                   
