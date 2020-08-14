@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className='title'>
           <h1>BENJAMIN SOLT</h1>
-          <h2 className='h2text'>Full Stack Developer</h2>
+          <h2 className='h2text'>Full Stack Engineer</h2>
         </div>
 
         <div className="section1">
