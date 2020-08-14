@@ -20,9 +20,13 @@ export default function Projects() {
         window.open("https://github.com/BenSolt/gameoflife");
       }
 
-    function Deploy() {
-        console.log('Deploy link')
-        // window.open("https://my-app-2c4n54ugl.now.sh/");
+    // ////////////////////////////////////////////////////
+    function ReactCipher() {  
+        window.open("https://cipher-puzzle.vercel.app/")
+    }
+
+    function ReactCipherGithub() {
+        window.open("https://github.com/BenSolt/cipher-puzzle");
       }
     
     // HALO // ////////////////////////////////////////////
@@ -38,6 +42,8 @@ export default function Projects() {
     function openGitHub() {
         window.open("https://github.com/BenSolt/");
       }
+
+  
 
     return(
         <div>
@@ -91,12 +97,35 @@ export default function Projects() {
                 </div>
                 
 
+
+                <div className='projectCipher'>
+
+                <div className='projectText'>
+                    <h1 className='textcolorTitle'>React App - Book Cipher</h1> 
+                        <h2 className='textcolor'>
+                        Built simple React App, to display the idea of a treasure hunt. Inspired by &nbsp;
+                        <a  className="Conwaylink" href="https://en.wikipedia.org/wiki/Beale_ciphers">The Beale Cipher</a>
+                        &nbsp; and decided to create my own version.
+                            <li>HTML | CSS | JavaScript | React </li>
+                        </h2>
+                </div>
+
+                <div className='btn2Holder'>
+                    <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
+                    <button class="btn2" onClick={ReactCipher}>Deployed Site</button>
+                </div>
+
+                </div>
+
+
+
+
                 <div className='projectHalo'>
 
                     <div className='projectText'>
                         <h1 className='textcolorTitle'>React Redux App</h1>
                             <h2 className='textcolor'>
-                            Built to demonstrate API call and Redux
+                            Built to demonstrate API call and Redux. Implemented Microsoft 343 Studios Halo 5 API.
                                 <li>HTML | CSS | JavaScript | React | Redux | Halo API</li>
                                 <li>Implemented Halo API database to visualize data from site</li>
                                 <li>Built a filter to allow a user to search by name of player</li>

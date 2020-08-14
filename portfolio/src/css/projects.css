@@ -56,7 +56,7 @@ color: white;
 }
 
 .projectConway{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('../images/ConwayLife.PNG');
     display: flex;
     margin: 1%;
@@ -69,7 +69,7 @@ color: white;
 
 
 .projectGroa{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('../images/Groa.jpg');
     display: flex;
     margin: 1%;
@@ -80,8 +80,23 @@ color: white;
     border-radius: 5px;
 }
 
+
+.projectCipher{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../images/MyCipher.PNG');
+    display: flex;
+    margin: 1%;
+    padding: 12px;
+    border: 2px solid black;
+    width: 90%;
+    height: 300px; 
+    border-radius: 5px;
+}
+
+
+
 .projectHalo{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('../images/api-halo5.jpg');
     display: flex;
     margin: 1%;
