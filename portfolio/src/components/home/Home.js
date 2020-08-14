@@ -37,8 +37,8 @@ export default function Home() {
         <div className="section1">
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
-              <h2>Currently attending Lambda(remote) to become a Full Stack Developer.
-                it and cant wait to use my experiences and knowledge to create a functional working application.
+              <h2>Attended Lambda(remote) to become a Full Stack Developer.
+                I am eager to use my experiences and knowledge to create a functional working application.
                 <br/>
                 Additionally, I have a Bachelors in Media Arts and Animation, several years
                 of experience in retail - working on a team and interacting with customers.
