@@ -37,11 +37,12 @@ export default function Home() {
         <div className="section1">
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
-              <h2>Attended Lambda(remote) to become a Full Stack Developer.
-                I am eager to use my experiences and knowledge to create a functional working application.
+              <h2>I am a Full Stack Engineer who recently graduated from Lambda school's intensive Full Stack 
+                Web Development program. I am eager to use my experiences and knowledge to create a functional 
+                working applicatioin.
                 <br/>
-                Additionally, I have a Bachelors in Media Arts and Animation, several years
-                of experience in retail - working on a team and interacting with customers.
+                Additionally, with a Bachelors in Media Arts and Animation, several years
+                of experience in retail - I bring strong communication and collaboration skills to any team.
                 <br/>
                 I also enjoy hanging out with family/friends, playing sports,
                 and working with Epic Game's Unreal Engine. 
