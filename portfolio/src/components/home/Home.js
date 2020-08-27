@@ -39,7 +39,7 @@ export default function Home() {
             <div class="textholder1">
               <h2>I am a Full Stack Engineer who recently graduated from Lambda school's intensive Full Stack 
                 Web Development program. I am eager to use my experiences and knowledge to create a functional 
-                working applicatioin.
+                working application.
                 <br/>
                 Additionally, with a Bachelors in Media Arts and Animation, several years
                 of experience in retail - I bring strong communication and collaboration skills to any team.
