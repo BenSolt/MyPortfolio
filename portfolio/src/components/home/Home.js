@@ -38,8 +38,8 @@ export default function Home() {
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
               <h2>I am a Full Stack Engineer who recently graduated from Lambda school's intensive Full Stack 
-                Web Development program. I am eager to use my experiences and knowledge to create a functional 
-                working application.
+                Web Development program. I am looking for a Front End Developer position eager to use my 
+                experiences, creativity, and knowledge to create a functional working application.
                 <br/>
                 Additionally, with a Bachelors in Media Arts and Animation, several years
                 of experience in retail - I bring strong communication and collaboration skills to any team.
