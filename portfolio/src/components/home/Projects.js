@@ -71,7 +71,7 @@ export default function Projects() {
                     
                     <div className='btn2Holder'>
                         <button class="btn2" onClick={GroaGithub}>Github code</button>
-                        <button class="btn2" onClick={GroaDeploy}>Deployed Site</button>
+                        {/* <button class="btn2" onClick={GroaDeploy}>Deployed Site</button> */}
                     </div>
 
                 </div>

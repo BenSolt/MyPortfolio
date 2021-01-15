@@ -12,7 +12,7 @@ import Artwork from './Artwork';
 export default function Home() {
 
   function openLinkedIn() {
-     window.open("https://www.linkedin.com/in/ben-solt-8447bb94/");
+     window.open("https://www.linkedin.com/in/benjamin-solt/");
   }
 
   function openGitHub() {
@@ -79,10 +79,12 @@ export default function Home() {
                 </ul>
 
                 <ul className='litext'>
+                  <li>Jest</li>
                   <li>Git/GitHub</li>
                   <li>Redux</li>
                   <li>Node.js</li>
                   <li>Python</li>
+
                 </ul>
 
                 <ul className='litext'>
