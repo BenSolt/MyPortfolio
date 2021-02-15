@@ -21,7 +21,7 @@ export default function Home() {
 
   function openResume() {
     // window.open("Benjamin Solt Resume.pdf");
-    window.open("Benjamin Solt Resume White.pdf");
+    window.open("Benjamin Solt Resume.pdf");
   }
 
 //////////////// SCROLL TEST///////////////////////////////////////////
