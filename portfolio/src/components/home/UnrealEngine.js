@@ -10,6 +10,30 @@ export default function Unreal() {
         <h2 className='h2text'>Video game engine developed by Epic Games.</h2>
         </div>
         <div className='projectcontainer'>
+
+            <div className='projectUnreal'>
+
+                <div className='projectText'> 
+                    <h1 className='textcolorTitle'>2d Side Scroller</h1>
+                        <h2 className='textcolor'>A 2d Platformer
+                        Learn new abilities which allow you to progress through the game. Uses Blueprints
+                            <li>Pickup ability</li>
+                            <li>Double Jump</li>
+                            <li>Jet Pack</li>
+                        </h2>
+                </div> 
+
+                <div className='youtubevideo'>
+                    <iframe width="412" height="256" 
+                    title="Couch Co-Op" 
+                    src="https://www.youtube.com/embed/fhSUHRPf9aA" 
+                    frameborder="0" allow="accelerometer; autoplay; 
+                    encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe>
+                </div> 
+            </div>
+
             <div className='projectUnreal'>
 
                 <div className='projectText'> 
