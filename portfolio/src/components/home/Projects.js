@@ -35,7 +35,10 @@ export default function Projects() {
       }
 
     function ReactReduxDeploy() {
-        window.open("https://my-app-2c4n54ugl.now.sh/");
+        // window.open("https://my-app-2c4n54ugl.now.sh/");
+        window.open("https://my-app-two-orcin.vercel.app");
+
+
       }
 
 
@@ -142,10 +145,6 @@ export default function Projects() {
 
             {/* END PROJECT CONTAINER */}
             </div> 
-    
-            {/* <Unreal/> */}
-           
-
             
             
         </div>
