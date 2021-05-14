@@ -4,6 +4,18 @@ import Unreal from './UnrealEngine';
 
 export default function Projects() {
 
+    // HALO // ////////////////////////////////////////////
+       function ReactReduxGithub() {
+        window.open("https://github.com/BenSolt/React-Redux-App2");
+      }
+
+    function ReactReduxDeploy() {
+        // window.open("https://my-app-2c4n54ugl.now.sh/");
+        window.open("https://my-app-two-orcin.vercel.app");
+
+
+      }
+
     // GROA
     function GroaGithub() {
         window.open("https://github.com/Lambda-School-Labs/Groa-fe");
@@ -29,17 +41,7 @@ export default function Projects() {
         window.open("https://github.com/BenSolt/cipher-puzzle");
       }
     
-    // HALO // ////////////////////////////////////////////
-    function ReactReduxGithub() {
-        window.open("https://github.com/BenSolt/React-Redux-App2");
-      }
-
-    function ReactReduxDeploy() {
-        // window.open("https://my-app-2c4n54ugl.now.sh/");
-        window.open("https://my-app-two-orcin.vercel.app");
-
-
-      }
+ 
 
 
     function openGitHub() {
