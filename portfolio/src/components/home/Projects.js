@@ -79,6 +79,25 @@ export default function Projects() {
 
             </div>
 
+            <div className='projectCipher'>
+
+            <div className='projectText'>
+                <h1 className='textcolorTitle'>React App - Book Cipher</h1> 
+                    <h2 className='textcolor'>
+                    Built simple React App, to display the idea of a treasure hunt. Inspired by &nbsp;
+                    <a  className="Conwaylink" href="https://en.wikipedia.org/wiki/Beale_ciphers">The Beale Cipher</a>
+                    &nbsp; and decided to create my own version.
+                        <li>HTML | CSS | JavaScript | React </li>
+                    </h2>
+            </div>
+
+            <div className='btn2Holder'>
+                <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
+                <button class="btn2" onClick={ReactCipher}>Deployed Site</button>
+            </div>
+
+            </div>
+
             <div className='projectGroa'>
 
                 <div className='projectText'> 
@@ -118,27 +137,6 @@ export default function Projects() {
                             {/* <button class="btn2" onClick={Deploy}>Deployed Site</button> */}
                         </div>
                     
-                </div>
-                
-
-
-                <div className='projectCipher'>
-
-                <div className='projectText'>
-                    <h1 className='textcolorTitle'>React App - Book Cipher</h1> 
-                        <h2 className='textcolor'>
-                        Built simple React App, to display the idea of a treasure hunt. Inspired by &nbsp;
-                        <a  className="Conwaylink" href="https://en.wikipedia.org/wiki/Beale_ciphers">The Beale Cipher</a>
-                        &nbsp; and decided to create my own version.
-                            <li>HTML | CSS | JavaScript | React </li>
-                        </h2>
-                </div>
-
-                <div className='btn2Holder'>
-                    <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
-                    <button class="btn2" onClick={ReactCipher}>Deployed Site</button>
-                </div>
-
                 </div>
 
             {/* END PROJECT CONTAINER */}
