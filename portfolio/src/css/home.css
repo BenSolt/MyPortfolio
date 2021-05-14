@@ -3,7 +3,7 @@
     padding: 12px 12px 12px 12px;
     margin: 0 10px 10px 10px; 
     border-radius: 2px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: bold;
     background:  rgb(70, 70, 70);
 }
@@ -34,16 +34,18 @@
 
 .margintext2{
     font-weight: 700;
+    
 }
 
 .ulholder{
     display: flex;
+    /* width: 300px; */
 }
 
 .litext{
     text-align: left;
     margin: 5px 0 0 0;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 /* BUllet Point */
@@ -94,7 +96,7 @@ h2{
 
 .imgBenKaylee{
     height:auto;
-    width: 500px;
+    width: 300px;
     border-radius: 5px;
     padding: 0 0 10px 0;
 }
@@ -124,7 +126,6 @@ h2{
 .sectionContact{
     display:flex;
     justify-content: space-between;
-    margin: 15px 15% 0 15%;
     border-top: 3px solid black;
 }
 

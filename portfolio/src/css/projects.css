@@ -1,8 +1,8 @@
 .title{
-    margin: 35px 0 35px 0;
+    margin: 5px 0 5px 0;
     display: flex;
-    justify-content: center;
-    background: rgb(97, 97, 97);
+    justify-content: left;
+    /* background: rgb(97, 97, 97); */
     
 }
 
@@ -19,11 +19,11 @@ color: white;
 
 .btn2{
     color: white;
-    width: 150px;
+    width: 120px;
     padding: 10px;
     margin: 10px; 
     border-radius: 2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     background:  rgb(70, 70, 70);
 }
@@ -49,6 +49,14 @@ color: white;
     background:  red;
 }
 
+/* CODE PROJECTS */
+.projectcontainer1{
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap; 
+    border: 2px solid red;
+}
+
 .projectcontainer{
     justify-content: center;
     display: flex;
@@ -62,8 +70,8 @@ color: white;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
-    width: 90%;
-    height: 300px; 
+    width: 40%;
+    height: 250px; 
     border-radius: 5px;
 }
 
@@ -75,8 +83,8 @@ color: white;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
-    width: 90%;
-    height: 300px; 
+    width: 40%;
+    height: 250px; 
     border-radius: 5px;
 }
 
@@ -88,8 +96,8 @@ color: white;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
-    width: 90%;
-    height: 300px; 
+    width: 40%;
+    height: 250px; 
     border-radius: 5px;
 }
 
@@ -102,8 +110,8 @@ color: white;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
-    width: 90%;
-    height: 300px; 
+    width: 40%;
+    height: 250px; 
     border-radius: 5px;
 }
 
@@ -114,15 +122,15 @@ color: white;
     padding: 12px;
     background: rgb(97, 97, 97);
     border: 2px solid rgb(0, 1, 77);
-    width: 90%;
+    width: 70%;
     height: 300px; 
     border-radius: 5px;
 }
 
 
-.projectText{
+/* .projectText{
     width: 80%;
-}
+} */
 
 .textcolorTitle{
    color: white;
