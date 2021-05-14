@@ -54,10 +54,10 @@ export default function Projects() {
         <div>
             <div className='title'>
             <h1>CODE PROJECTS</h1>
-            <h2 className='h2text'>Using HTML, CSS, Javascript, Python.</h2> 
+            <h3 className='h2text'>Using HTML, CSS, Javascript, Python.</h3> 
             </div>
                 
-            <div className='projectcontainer1'>
+            <div className='projectcontainer'>
                 
             <div className='projectHalo'>
 
@@ -69,7 +69,7 @@ export default function Projects() {
                         <li>Using Microsoft - 343 Studios, Halo 5 API</li>
                     </h4>
                 <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
-                <button class="btn2" onClick={ReactReduxDeploy}>Deployed Site</button>
+                <button class="btn2" onClick={ReactReduxDeploy}>Site</button>
             </div>
 
             {/* <div className='btn2Holder'>
@@ -84,14 +84,14 @@ export default function Projects() {
             <div className='projectText'>
                 <h2 className='textcolorTitle'>React App - Book Cipher</h2> 
                     <h4 className='textcolor'>
-                    React App. Inspired by &nbsp;
+                    Inspired by &nbsp;
                     <a  className="Conwaylink" href="https://en.wikipedia.org/wiki/Beale_ciphers">The Beale Cipher</a>
                     &nbsp;.
                         <li>HTML | CSS | JavaScript | React </li>
                     </h4>
 
                 <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
-                <button class="btn2" onClick={ReactCipher}>Deployed Site</button>
+                <button class="btn2" onClick={ReactCipher}>Site</button>
             </div>
 
             {/* <div className='btn2Holder'>
@@ -108,7 +108,7 @@ export default function Projects() {
                         <h4 className='textcolor'>Built to recommend movies to user, based on how user rates movies
                         
                             <li>HTML | CSS | JavaScript | React | AWS</li>
-                            <li>As Front End Developer built Authorization, Login, display layout of movie info</li>   
+                            {/* <li>As Front End Developer built Authorization, Login, display layout of movie info</li>    */}
                             <li>Collaborated remotely with team of 6 web developers, 2 data science, and 1 UX designer</li>
                         </h4>
 

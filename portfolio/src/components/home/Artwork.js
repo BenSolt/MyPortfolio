@@ -78,10 +78,10 @@ export default function Artwork() {
 
 
     return(
-    <div className='mainbox'>
+    <div className='mainboxArt'>
         <div className='title'>
             <h1>ARTWORK</h1>
-            <h2 className='h2text'>Created with 3D Studio Max and Photoshop.</h2>
+            <h3 className='h2text'>Created with 3D Studio Max and Photoshop.</h3>
         </div>
         <div id="myModal" className="modal">
         
@@ -103,13 +103,12 @@ export default function Artwork() {
                 <img className='myImgs' onClick={Click6} src={Waterwheel} alt='WaterWheel'/>
                 <img className='myImgs' onClick={Click7} src={Well} alt='Well'/>
                 
-                <iframe className="myVideos"  width="412" height="256"
-                            //width="560" height="315" 
-                            src="https://www.youtube.com/embed/xw9Jo15Og8w" 
-                            frameborder="0" allow="accelerometer; autoplay; 
-                            encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>  
-                        </iframe>
+                <iframe className="myVideos"  width="266" height="138"
+                    src="https://www.youtube.com/embed/xw9Jo15Og8w" 
+                    frameborder="0" allow="accelerometer; autoplay; 
+                    encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>  
+                </iframe>
             </div>
           
         </div>

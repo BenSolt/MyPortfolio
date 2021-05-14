@@ -2,14 +2,27 @@
     margin: 5px 0 5px 0;
     display: flex;
     justify-content: left;
-    /* background: rgb(97, 97, 97); */
-    
+    /* background: rgb(97, 97, 97); */  
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    .title{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+/* Iphone 5S*/
+@media only screen and (max-width: 320px) {
+    .title{
+        display:flex;
+        flex-direction: column;
+    }
 }
 
 .Conwaylink{
 color: white;
-
-/* text-decoration: none; */
 }
 
 .btn2Holder{
@@ -50,13 +63,6 @@ color: white;
 }
 
 /* CODE PROJECTS */
-.projectcontainer1{
-    justify-content: center;
-    display: flex;
-    flex-wrap:wrap; 
-    border: 2px solid red;
-}
-
 .projectcontainer{
     justify-content: center;
     display: flex;
@@ -66,33 +72,65 @@ color: white;
 .projectConway{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('../images/ConwayLife.PNG');
-    display: flex;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
     width: 40%;
     height: 250px; 
     border-radius: 5px;
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    .projectConway{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .projectConway{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
 }
 
 
 .projectGroa{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('../images/Groa.jpg');
-    display: flex;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
     width: 40%;
     height: 250px; 
     border-radius: 5px;
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    .projectGroa{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .projectGroa{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
 }
 
 
 .projectCipher{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('../images/MyCipher.PNG');
-    display: flex;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
@@ -101,12 +139,29 @@ color: white;
     border-radius: 5px;
 }
 
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    .projectCipher{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
+}
+
+/* Iphone 5s */
+@media only screen and (max-width: 320px) {
+
+    .projectCipher{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
+}
 
 
 .projectHalo{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('../images/api-halo5.jpg');
-    display: flex;
     margin: 1%;
     padding: 12px;
     border: 2px solid black;
@@ -115,35 +170,73 @@ color: white;
     border-radius: 5px;
 }
 
-.projectUnreal{
-   
-    display: flex;
-    margin: 1%;
-    padding: 12px;
-    background: rgb(97, 97, 97);
-    border: 2px solid rgb(0, 1, 77);
-    width: 70%;
-    height: 300px; 
-    border-radius: 5px;
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    .projectHalo{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
 }
 
 
-/* .projectText{
-    width: 80%;
-} */
+@media only screen and (max-width: 320px) {
+    .projectHalo{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
+}
+
+.projectUnreal{
+    margin: 1%;
+    padding: 12px;
+    background: rgb(97, 97, 97);
+    width: 40%;
+    height: 250px; 
+    border-radius: 5px;
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    .projectUnreal{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
+}
+
+/* 320- iphone 5s */
+@media only screen and (max-width: 320px) {
+    .projectUnreal{
+        width: 100%;
+        height: 250px; 
+        border-radius: 5px;
+    }
+}
+
+.videoSize{
+    width: 266px;
+    height: 138px;
+}
+
+
+
+/* 320- iphone 5s */
+@media only screen and (max-width: 320px) {
+    .videoSize{
+        width:200px;
+        height:132px 
+    }
+  }
 
 .textcolorTitle{
-   color: white;
-   
+   color: white;   
 }
 
 .textcolor{
     color: white;
-
- }
-
-.youtubevideo{
-    padding-top: 15px;
 }
+
 
 
