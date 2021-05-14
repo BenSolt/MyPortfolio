@@ -46,7 +46,7 @@ export default function Navbar() {
                 
             </nav>
 
-            <div className="darkModeHolder">
+            {/* <div className="darkModeHolder">
                 <h4 className="navtext">Darkmode</h4>
                 <div className="dark-mode__toggle">
                     <div
@@ -54,7 +54,7 @@ export default function Navbar() {
                     className={darkMode ? 'toggle toggled' : 'toggle'}
                     />
                 </div>       
-            </div>       
+            </div>        */}
 
         </div>
                  

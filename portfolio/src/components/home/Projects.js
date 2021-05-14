@@ -5,7 +5,7 @@ import Unreal from './UnrealEngine';
 export default function Projects() {
 
     // HALO // ////////////////////////////////////////////
-       function ReactReduxGithub() {
+    function ReactReduxGithub() {
         window.open("https://github.com/BenSolt/React-Redux-App2");
       }
 
@@ -59,6 +59,25 @@ export default function Projects() {
                 
             <div className='projectcontainer'>
                 
+            <div className='projectHalo'>
+
+            <div className='projectText'>
+                <h1 className='textcolorTitle'>React Redux App</h1>
+                    <h2 className='textcolor'>
+                    Built to demonstrate API call and Redux. Implemented Microsoft 343 Studios Halo 5 API.
+                        <li>HTML | CSS | JavaScript | React | Redux | Halo API</li>
+                        <li>Implemented Halo API database to visualize data from site</li>
+                        <li>Built a filter to allow a user to search by name of player</li>
+                        <li>Using Microsoft - 343 Studios, Halo 5 API</li>
+                    </h2>
+            </div>
+
+            <div className='btn2Holder'>
+                <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
+                <button class="btn2" onClick={ReactReduxDeploy}>Deployed Site</button>
+            </div>
+
+            </div>
 
             <div className='projectGroa'>
 
@@ -119,29 +138,6 @@ export default function Projects() {
                     <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
                     <button class="btn2" onClick={ReactCipher}>Deployed Site</button>
                 </div>
-
-                </div>
-
-
-
-
-                <div className='projectHalo'>
-
-                    <div className='projectText'>
-                        <h1 className='textcolorTitle'>React Redux App</h1>
-                            <h2 className='textcolor'>
-                            Built to demonstrate API call and Redux. Implemented Microsoft 343 Studios Halo 5 API.
-                                <li>HTML | CSS | JavaScript | React | Redux | Halo API</li>
-                                <li>Implemented Halo API database to visualize data from site</li>
-                                <li>Built a filter to allow a user to search by name of player</li>
-                                <li>Using Microsoft - 343 Studios, Halo 5 API</li>
-                            </h2>
-                    </div>
-
-                    <div className='btn2Holder'>
-                        <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
-                        <button class="btn2" onClick={ReactReduxDeploy}>Deployed Site</button>
-                    </div>
 
                 </div>
 
