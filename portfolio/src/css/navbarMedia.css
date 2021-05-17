@@ -4,18 +4,18 @@
     }
 }
 
+
+
 @media only screen and (max-width: 960px) {
     .flexnav{
         display: flex; 
         flex-wrap: wrap;  
-        /* border: 2px solid yellow; */
     }
 }
 
 @media only screen and (max-width: 500px) {
     .logo{
         padding-bottom: 10px;
-        /* border: 2px solid lightblue;   */
     }
 }
 
@@ -31,6 +31,9 @@
         background:  rgb(95, 95, 95);   
     }
 }
+
+
+
 
 @media only screen and (max-width: 500px) {
 

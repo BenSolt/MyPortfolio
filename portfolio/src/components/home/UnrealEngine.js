@@ -75,8 +75,7 @@ export default function Unreal() {
 
                 <div className='projectText'> 
                     <h2 className='textcolorTitle'>Invaders</h2>
-                        <h4 className='textcolor'>Take on Space Invaders. Uses Blueprints
-                        </h4>
+                        <h4 className='textcolor'>Take on Space Invaders. Uses Blueprints</h4>
 
                     <div>
                         <iframe className='videoSize' 

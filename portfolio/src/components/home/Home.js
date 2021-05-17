@@ -39,11 +39,13 @@ export default function Home() {
         <img class='imgBenKaylee' src={BenKaylee} alt="BenandKaylee(dog)" />
         <div class="textholder1">
           <h4>I am a Full Stack Engineer who graduated from Lambda school's intensive Full Stack
-          Web Development program. I am looking for a Front End Developer position eager to use my
-          experiences, creativity, and knowledge to create a functional working application.
+          Web Development program. 
+          {/* I am looking for a Front End Developer position eager to use my
+          experiences, creativity, and knowledge to create a functional working application. */}
                 <br />
-                Additionally, with a Bachelors in Media Arts and Animation, several years
-                of experience in retail - I bring strong communication and collaboration skills to any team.
+                Additionally, with a Bachelors in Media Arts and Animation, and several years
+                of experience in retail. 
+                - I bring strong communication and collaboration skills to any team.
                 <br />
             {/* I also enjoy hanging out with family/friends, playing sports,
                 and working with Epic Game's Unreal Engine.  */}
@@ -68,7 +70,7 @@ export default function Home() {
 
         <div>
           <h2 className="margintext2">Skills</h2>
-          <div className='ulholder'>
+          <div className='ulholder1'>
             <ul className='litext'>
               <li>CSS</li>
               <li>HTML</li>
@@ -89,6 +91,29 @@ export default function Home() {
             </ul>
 
             <ul className='litext'>
+              <li>Adobe Creative Suite</li>
+              <li>3D Studio Max</li>
+              <li>Unreal Engine</li>
+            </ul>
+
+          </div>
+
+{/* Phone Size Ulholder2 */}
+          <div className='ulholder2'>
+            <ul className='litext'>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>SASS</li>
+              <li>React</li>
+              <li>Javascript</li>
+              <li>Jest</li>
+              <li>Git/GitHub</li>
+            </ul>
+
+            <ul className='litext'>
+              <li>Redux</li>
+              <li>Node.js</li>
+              <li>Python</li>
               <li>Adobe Creative Suite</li>
               <li>3D Studio Max</li>
               <li>Unreal Engine</li>

@@ -12,19 +12,7 @@
     background:  red;
 }
 
-.imag1{
-    object-Position: 0px 0px;
-    height: 128px;
-    width: 128px;  
-    border: 2px solid black;    
-}
 
-.imag2{
-    object-Position: -128px 0px;
-    height: 128px;
-    width: 128px;  
-    border: 2px solid black;    
-}
 
 .imagdefault{
     height: 256px;
@@ -37,10 +25,49 @@
     
 }
 
-.ulholder{
+.ulholder1{
     display: flex;
     width: 600px;
 }
+.ulholder2{
+    display: none;
+}
+
+@media only screen and (max-width: 414px) {
+    .ulholder1{
+        display: none; 
+    }
+    .ulholder2{
+      margin: 0 5% 0 5%;
+      display: flex; 
+      width: 250px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+    .ulholder1{
+        display: none; 
+    }
+    .ulholder2{
+      margin: 0 5% 0 5%;
+      display: flex; 
+      width: 250px;
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+
+    .ulholder1{
+      display: none; 
+  
+
+    }
+    .ulholder2{
+        display: flex; 
+        width: 250px;
+      }
+  }
 
 .litext{
     text-align: left;
@@ -93,6 +120,7 @@ h2{
             display:block;
         }
     }
+
 
 .imgBenKaylee{
     height:auto;
