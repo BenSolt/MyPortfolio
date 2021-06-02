@@ -73,7 +73,7 @@ export default function Projects() {
                 </div>
 
 
-                <div className='projectCipher'>
+                <div className='projectGroa'>
 
                     <div className='projectText'>
                         <h2 className='textcolorTitle'>React App OCR</h2>
