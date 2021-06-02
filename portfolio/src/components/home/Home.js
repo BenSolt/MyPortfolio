@@ -20,7 +20,6 @@ export default function Home() {
   }
 
   function openResume() {
-    // window.open("Benjamin Solt Resume.pdf");
     window.open("Benjamin Solt Resume.pdf");
   }
 

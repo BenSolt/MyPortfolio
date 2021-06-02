@@ -9,6 +9,10 @@ export default function Projects() {
         window.open("https://github.com/BenSolt/React-Redux-App2");
     }
 
+    function ReactOCR() {
+        window.open("https://github.com/BenSolt/react-app-ocr");
+    }
+
     function ReactReduxDeploy() {
         // window.open("https://my-app-2c4n54ugl.now.sh/");
         window.open("https://my-app-two-orcin.vercel.app");
@@ -64,6 +68,23 @@ export default function Projects() {
 
                         <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
                         <button class="btn2" onClick={ReactReduxDeploy}>Site</button>
+                    </div>
+
+                </div>
+
+
+                <div className='projectCipher'>
+
+                    <div className='projectText'>
+                        <h2 className='textcolorTitle'>React App OCR</h2>
+                        <h4 className='textcolor'>
+                            Built to demonstrate Optical Character Recognition.
+                    </h4>
+                        <li className='bullet'>HTML | CSS | JavaScript | React </li>
+                        <li className='bullet'> Uses a Server, Tesseract.js, express </li>
+
+                        <button class="btn2" onClick={ReactOCR}>Github code</button>
+                        {/* <button class="btn2" onClick={ReactReduxDeploy}>Site</button> */}
                     </div>
 
                 </div>
