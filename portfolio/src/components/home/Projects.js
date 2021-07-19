@@ -66,15 +66,15 @@ export default function Projects() {
                         <li className='bullet'>HTML | CSS | JavaScript | React | Redux | Halo API</li>
                         <li className='bullet'>Using Microsoft - 343 Studios, Halo 5 API</li>
 
-                        <div className='btn2Holder'>
-                            <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
-                            <button class="btn2" onClick={ReactReduxDeploy}>Site</button>
-                        </div>
+                        <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
+                        <button class="btn2" onClick={ReactReduxDeploy}>Site</button>
+
                     </div>
 
                 </div>
 
-
+                <div className='projectGroa'>
+                </div>
                 <div className='projectGroa'>
 
                     <div className='projectText'>
