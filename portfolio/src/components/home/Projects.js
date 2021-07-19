@@ -13,6 +13,10 @@ export default function Projects() {
         window.open("https://github.com/BenSolt/react-app-ocr");
     }
 
+    function UnrealGame() {
+        window.open("https://react-app-unreal-game.vercel.app/");
+    }
+
     function ReactReduxDeploy() {
         // window.open("https://my-app-2c4n54ugl.now.sh/");
         window.open("https://my-app-two-orcin.vercel.app");
@@ -74,7 +78,14 @@ export default function Projects() {
                 </div>
 
                 <div className='projectGroa'>
+                    <h3 className='textcolorTitle'>Unreal Engine Game</h3>
+                    <h5 className='textcolor'>
+                    Built to showcase game created using Unreal Engine.
+                    </h5>
+                    <li className='bullet'>HTML | CSS | JavaScript | Reacct | Unreal Engine | Adobe Flash | AWS</li>
+                    <button class="btn2" onClick={UnrealGame}>Github code</button>
                 </div>
+
                 <div className='projectGroa'>
 
                     <div className='projectText'>
@@ -102,10 +113,8 @@ export default function Projects() {
                         </h5>
                         <li className='bullet'>HTML | CSS | JavaScript | React </li>
 
-                        <div className='btn2Holder'>
                             <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
                             <button class="btn2" onClick={ReactCipher}>Site</button>
-                        </div>
                     </div>
 
                 </div>
