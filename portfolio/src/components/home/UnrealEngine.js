@@ -14,10 +14,6 @@ export default function Unreal() {
                 <div className='projectText'> 
                     <h2 className='textcolorTitle'>2d Side Scroller</h2>
                         <h4 className='textcolor'>A 2d Platformer. Uses Blueprints
-                        {/* Learn new abilities which allow you to progress through the game. 
-                            <li>Pickup ability</li>
-                            <li>Double Jump</li>
-                            <li>Jet Pack</li> */}
                         </h4>
 
                 <div>

@@ -59,15 +59,17 @@ export default function Projects() {
                 <div className='projectHalo'>
 
                     <div className='projectText'>
-                        <h2 className='textcolorTitle'>React Redux App</h2>
-                        <h4 className='textcolor'>
+                        <h3 className='textcolorTitle'>React Redux App</h3>
+                        <h5 className='textcolor'>
                             Built to demonstrate API call and Redux.
-                    </h4>
+                        </h5>
                         <li className='bullet'>HTML | CSS | JavaScript | React | Redux | Halo API</li>
                         <li className='bullet'>Using Microsoft - 343 Studios, Halo 5 API</li>
 
-                        <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
-                        <button class="btn2" onClick={ReactReduxDeploy}>Site</button>
+                        <div className='btn2Holder'>
+                            <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
+                            <button class="btn2" onClick={ReactReduxDeploy}>Site</button>
+                        </div>
                     </div>
 
                 </div>
@@ -76,10 +78,11 @@ export default function Projects() {
                 <div className='projectGroa'>
 
                     <div className='projectText'>
-                        <h2 className='textcolorTitle'>React App OCR</h2>
-                        <h4 className='textcolor'>
+                        <h3 className='textcolorTitle'>React App OCR</h3>
+                        <h5 className='textcolor'>
                             Built to demonstrate Optical Character Recognition.
-                    </h4>
+                        </h5>
+
                         <li className='bullet'>HTML | CSS | JavaScript | React </li>
                         <li className='bullet'> Uses a Server, Tesseract.js, express </li>
 
@@ -92,15 +95,17 @@ export default function Projects() {
                 <div className='projectCipher'>
 
                     <div className='projectText'>
-                        <h2 className='textcolorTitle'>React App - Book Cipher</h2>
-                        <h4 className='textcolor'>
+                        <h3 className='textcolorTitle'>React App - Book Cipher</h3>
+                        <h5 className='textcolor'>
                             Inspired by &nbsp;
-                    <a className="Conwaylink" href="https://en.wikipedia.org/wiki/Beale_ciphers">The Beale Cipher</a>
-                        </h4>
+                            <a className="Conwaylink" href="https://en.wikipedia.org/wiki/Beale_ciphers">The Beale Cipher</a>
+                        </h5>
                         <li className='bullet'>HTML | CSS | JavaScript | React </li>
 
-                        <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
-                        <button class="btn2" onClick={ReactCipher}>Site</button>
+                        <div className='btn2Holder'>
+                            <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
+                            <button class="btn2" onClick={ReactCipher}>Site</button>
+                        </div>
                     </div>
 
                 </div>
@@ -108,8 +113,8 @@ export default function Projects() {
                 <div className='projectGroa'>
 
                     <div className='projectText'>
-                        <h2 className='textcolorTitle'>Groa</h2>
-                        <h4 className='textcolor'>Built to recommend movies to user, based on how user rates movies</h4>
+                        <h3 className='textcolorTitle'>Groa</h3>
+                        <h5 className='textcolor'>Built to recommend movies to user, based on how user rates movies</h5>
                         <li className='bullet'>HTML | CSS | JavaScript | React | AWS</li>
                         {/* <li>As Front End Developer built Authorization, Login, display layout of movie info</li>    */}
                         <li className='bullet'>Collaborated remotely with team of 6 web developers, 2 data science, and 1 UX designer</li>
@@ -126,7 +131,7 @@ export default function Projects() {
                         <h2 className='textcolorTitle'>Conways Game of Life</h2>
                         <h4 className='textcolor'><a className="Conwaylink" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>
                             &nbsp;  created by the British mathematician John Horton Conway in 1970.
-                            </h4>
+                        </h4>
                         {/* The user creates an initial configuration and it evolves by itself. It is &nbsp;<a className="Conwaylink" href ="https://en.wikipedia.org/wiki/Turing_completeness">Turning Complete</a> */}
                         < li className='bullet'>HTML | CSS | JavaScript | React |</li>
 

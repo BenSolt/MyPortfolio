@@ -35,11 +35,11 @@ color: white;
 }
 
 .btn2Holder{
-    margin-top: 20px; 
-    width: 20%;
+    display: flex;
 }
 
 .btn2{
+    height:50px;
     color: white;
     width: 120px;
     padding: 10px;
@@ -321,6 +321,7 @@ color: white;
 
 .bullet{
     color: white;   
+    font-size: 14px;
  }
 
 .textcolor{
