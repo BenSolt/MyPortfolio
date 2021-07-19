@@ -83,7 +83,7 @@ export default function Projects() {
                     Built to showcase game created using Unreal Engine.
                     </h5>
                     <li className='bullet'>HTML | CSS | JavaScript | Reacct | Unreal Engine | Adobe Flash | AWS</li>
-                    <button class="btn2" onClick={UnrealGame}>Github code</button>
+                    <button class="btn2" onClick={UnrealGame}>Site</button>
                 </div>
 
                 <div className='projectGroa'>
