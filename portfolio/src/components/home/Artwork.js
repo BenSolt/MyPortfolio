@@ -17,49 +17,42 @@ export default function Artwork() {
     // var span = document.getElementsByClassName("close")[0];
 
     const Click1 = (element) => {
-        console.log('cliccck')
         document.getElementById("img01").src = Atlantis;
         //element.src;
         document.getElementById("myModal").style.display ='block'  
     }
     
     const Click2 = () => {
-        console.log('cliccck')
         document.getElementById("img01").src = Factory;
         //element.src;
         document.getElementById("myModal").style.display ='block' 
     }
 
     const Click3 = () => {
-        console.log('cliccck')
         document.getElementById("img01").src = Hydra;
         //element.src;
         document.getElementById("myModal").style.display ='block'
     }
 
     const Click4 = () => {
-        console.log('cliccck')
         document.getElementById("img01").src = Refinery;
         //element.src;
         document.getElementById("myModal").style.display ='block'
     }
 
     const Click5 = () => {
-        console.log('cliccck')
         document.getElementById("img01").src = Temple;
         //element.src;
         document.getElementById("myModal").style.display ='block'
     }
 
     const Click6 = () => {
-        console.log('cliccck')
         document.getElementById("img01").src = Waterwheel;
         //element.src;
         document.getElementById("myModal").style.display ='block'
     }
 
     const Click7 = () => {
-        console.log('cliccck')
         document.getElementById("img01").src = Well;
         //element.src;
         document.getElementById("myModal").style.display ='block'
