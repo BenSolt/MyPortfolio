@@ -4,6 +4,15 @@ import Unreal from './UnrealEngine';
 
 export default function Projects() {
 
+    // Word Scramble Game
+    function ReactWordScramble() {
+        window.open("https://github.com/BenSolt/word-scramble");
+    }
+
+    function ReactWordScrambleDeploy() {
+        window.open("https://word-scramble-mu.vercel.app/");
+    }
+
     // HALO // ////////////////////////////////////////////
     function ReactReduxGithub() {
         window.open("https://github.com/BenSolt/React-Redux-App2");
@@ -18,22 +27,13 @@ export default function Projects() {
     }
 
     function ReactReduxDeploy() {
-        // window.open("https://my-app-2c4n54ugl.now.sh/");
         window.open("https://my-app-two-orcin.vercel.app");
-
-
     }
 
     // GROA
     function GroaGithub() {
         window.open("https://github.com/Lambda-School-Labs/Groa-fe");
     }
-
-    // function GroaDeploy() {
-    //     console.log('Deploy link')
-    //     window.open("https://www.groa.us/");
-    //   }
-
 
     ////////GAME LIFE/////////////////////////////////////////////////  
     function ConWayGithub() {
@@ -60,6 +60,22 @@ export default function Projects() {
 
             <div className='projectcontainer'>
 
+                <div className='projectGroa'>
+
+                    <div className='projectText'>
+                        <h3 className='textcolorTitle'>Word Scramble Game</h3>
+                        <h5 className='textcolor'>
+                            Inspired by Wordle, Created a word puzzle game.
+                        </h5>
+                        <li className='bullet'>HTML | CSS | JavaScript | React </li>
+
+                        <button class="btn2" onClick={ReactWordScramble}>Github</button>
+                        <button class="btn2" onClick={ReactWordScrambleDeploy}>Site</button>
+
+                    </div>
+
+                </div>
+
                 <div className='projectHalo'>
 
                     <div className='projectText'>
@@ -70,7 +86,7 @@ export default function Projects() {
                         <li className='bullet'>HTML | CSS | JavaScript | React | Redux | Halo API</li>
                         <li className='bullet'>Using Microsoft - 343 Studios, Halo 5 API</li>
 
-                        <button class="btn2" onClick={ReactReduxGithub}>Github code</button>
+                        <button class="btn2" onClick={ReactReduxGithub}>Github</button>
                         <button class="btn2" onClick={ReactReduxDeploy}>Site</button>
 
                     </div>
@@ -80,7 +96,7 @@ export default function Projects() {
                 <div className='projectGroa'>
                     <h3 className='textcolorTitle'>Unreal Engine Game</h3>
                     <h5 className='textcolor'>
-                    Built to showcase game created using Unreal Engine.
+                        Built to showcase game created using Unreal Engine.
                     </h5>
                     <li className='bullet'>HTML | CSS | JavaScript | Reacct | Unreal Engine | Adobe Flash | AWS</li>
                     <button class="btn2" onClick={UnrealGame}>Site</button>
@@ -97,7 +113,7 @@ export default function Projects() {
                         <li className='bullet'>HTML | CSS | JavaScript | React </li>
                         <li className='bullet'> Uses a Server, Tesseract.js, express </li>
 
-                        <button class="btn2" onClick={ReactOCR}>Github code</button>
+                        <button class="btn2" onClick={ReactOCR}>Github</button>
                         {/* <button class="btn2" onClick={ReactReduxDeploy}>Site</button> */}
                     </div>
 
@@ -113,8 +129,8 @@ export default function Projects() {
                         </h5>
                         <li className='bullet'>HTML | CSS | JavaScript | React </li>
 
-                            <button class="btn2" onClick={ReactCipherGithub}>Github code</button>
-                            <button class="btn2" onClick={ReactCipher}>Site</button>
+                        <button class="btn2" onClick={ReactCipherGithub}>Github</button>
+                        <button class="btn2" onClick={ReactCipher}>Site</button>
                     </div>
 
                 </div>
@@ -128,7 +144,7 @@ export default function Projects() {
                         {/* <li>As Front End Developer built Authorization, Login, display layout of movie info</li>    */}
                         <li className='bullet'>Collaborated remotely with team of 6 web developers, 2 data science, and 1 UX designer</li>
 
-                        <button class="btn2" onClick={GroaGithub}>Github code</button>
+                        <button class="btn2" onClick={GroaGithub}>Github</button>
                     </div>
 
                 </div>
@@ -146,7 +162,7 @@ export default function Projects() {
 
 
 
-                        <button class="btn2" onClick={ConWayGithub}>Github code</button>
+                        <button class="btn2" onClick={ConWayGithub}>Github</button>
                     </div>
 
                 </div>

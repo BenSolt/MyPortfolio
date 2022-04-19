@@ -41,7 +41,7 @@ color: white;
 .btn2{
     height:50px;
     color: white;
-    width: 120px;
+    width: 100px;
     padding: 10px;
     margin: 10px; 
     border-radius: 2px;
@@ -98,6 +98,7 @@ color: white;
         width: 40%;
         height: 300px; 
         border-radius: 5px;
+        border: 2px solid red;
     }
 }
 
