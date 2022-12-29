@@ -71,19 +71,22 @@ export default function Home() {
           <h2 className="margintext2">Skills</h2>
           <div className='ulholder1'>
             <ul className='litext'>
+              <li>WordPress</li>
               <li>CSS</li>
               <li>HTML</li>
               <li>SASS</li>
-              <li>React</li>
+              
             </ul>
 
             <ul className='litext'>
+              <li>React</li>
               <li>Javascript</li>
               <li>Jest</li>
               <li>Git/GitHub</li>
             </ul>
 
             <ul className='litext'>
+              <li>Firebase</li>
               <li>Redux</li>
               <li>Node.js</li>
               <li>Python</li>
