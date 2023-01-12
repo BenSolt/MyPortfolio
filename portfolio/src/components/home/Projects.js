@@ -98,7 +98,7 @@ export default function Projects() {
                     <h5 className='textcolor'>
                         Built to showcase game created using Unreal Engine.
                     </h5>
-                    <li className='bullet'>HTML | CSS | JavaScript | Reacct | Unreal Engine | Adobe Flash | AWS</li>
+                    <li className='bullet'>HTML | CSS | JavaScript | React | Unreal Engine | Adobe Flash | AWS</li>
                     <button class="btn2" onClick={UnrealGame}>Site</button>
                 </div>
 
