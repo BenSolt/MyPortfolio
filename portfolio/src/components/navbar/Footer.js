@@ -4,7 +4,7 @@ export default function Footer() {
     return(
 
         <div className='Footerholder'>
-            <p className='navtext'>Benjamin Solt 2021 copyright</p>
+            <p className='navtext'>Benjamin Solt 2022 copyright</p>
         </div>
     )
 }
