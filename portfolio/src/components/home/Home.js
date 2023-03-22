@@ -1,5 +1,6 @@
 import React from "react";
 import BenKaylee from '../../images/BenandKaylee.jpg';
+import BenImage from '../../images/ben01.jpg';
 
 import Projects from './Projects';
 import Unreal from './UnrealEngine';
@@ -35,7 +36,7 @@ export default function Home() {
       </div>
 
       <div className="section1">
-        <img class='imgBenKaylee' src={BenKaylee} alt="BenandKaylee(dog)" />
+        <img class='imgBenKaylee' src={BenImage} alt="Ben profile image" />
         <div class="textholder1">
           <h4>I am a Full Stack Engineer who graduated from Lambda school's intensive Full Stack
           Web Development program. 
