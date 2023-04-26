@@ -33,7 +33,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 425px) {
     .ulholder1{
         display: none; 
     }
