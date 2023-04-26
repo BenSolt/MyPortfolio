@@ -4,6 +4,15 @@ import Unreal from './UnrealEngine';
 
 export default function Projects() {
 
+    // REACT HALO 5 API //////////////
+    function ReactHalo5() {
+        window.open("https://github.com/BenSolt/react-app-halo5-api");
+    }
+
+    function ReactHalo5Deploy() {
+        window.open("https://react-app-halo5-api.vercel.app/");
+    }
+
     // Word Scramble Game
     function ReactWordScramble() {
         window.open("https://github.com/BenSolt/word-scramble");
@@ -59,6 +68,26 @@ export default function Projects() {
             </div>
 
             <div className='projectcontainer'>
+
+                <div className='projectHalo'>
+
+                    <div className='projectText'>
+                        <h3 className='textcolorTitle'>React App Halo 5</h3>
+                        <h5 className='textcolor'>
+                            Built to demonstrate API call.
+                        </h5>
+                        <li className='bullet'>HTML | CSS | JavaScript | React | Halo API</li>
+                        <li className='bullet'>Using Microsoft - 343 Studios, Halo 5 API</li>
+
+                        <button class="btn2" onClick={ReactHalo5}>Github</button>
+                        <button class="btn2" onClick={ReactHalo5Deploy}>Site</button>
+
+                    </div>
+
+                </div>
+
+
+
 
                 <div className='projectGroa'>
 
